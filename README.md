@@ -6,6 +6,8 @@ Scrapped data is not 100% foolproof so needed to manually change some parts. The
 ## Graph of Digivolutions
 
 The main goal of this project. I used my scrapped data which includes evo paths and used pyvis to plot a graph.
+<br/>
+![What is this](graph.png)
 <p>
 Legend for graph
 
