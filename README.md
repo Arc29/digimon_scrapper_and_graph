@@ -20,6 +20,10 @@ Legend for graph
 
 Just run digimon_graph_web.html or appmon_graph.html.
 
+- You can search for some digimon/appmon which will then filter out only searched mon and its evos
+
+- After filtering, if a node is clicked, its corresponding evos will appear
+
 ## Pre-requisites
 - If you wanted to run the scripts, first run python -m  pip: -r requirements.txt
 - Some parts of the script have to be uncommented to use them
