@@ -18,6 +18,6 @@ Legend for graph
 
 Just run digimon_graph_web.html or appmon_graph.html.
 
-##Pre-requisites
+## Pre-requisites
 - If you wanted to run the scripts, first run python -m  pip: -r requirements.txt
 - Some parts of the script have to be uncommented to use them
