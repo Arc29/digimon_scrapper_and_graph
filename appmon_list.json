@@ -1,0 +1,5327 @@
+{
+    "Addmon": {
+        "name": "Addmon",
+        "url": "/wiki/Addmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/74/Addmon_b.png/revision/latest?cb=20161002030905",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Address Book",
+        "power": "320",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Addmon is an Address Book Appmon.",
+        "attacks": [
+            {
+                "name": "Add Research",
+                "description": ""
+            },
+            {
+                "name": "Add Delete",
+                "description": ""
+            }
+        ]
+    },
+    "Aidmon": {
+        "name": "Aidmon",
+        "url": "/wiki/Aidmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/bc/Aidmon_b.png/revision/latest?cb=20170217160747",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Lifesaving",
+        "power": "490",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Yukari"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-07"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Aidmon is a Lifesaving Appmon.",
+        "attacks": [
+            {
+                "name": "Healing Bandage",
+                "description": ""
+            },
+            {
+                "name": "Rescue Kiss",
+                "description": ""
+            }
+        ]
+    },
+    "Auctiomon": {
+        "name": "Auctiomon",
+        "url": "/wiki/Auctiomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/3f/Auctiomon_b.png/revision/latest?cb=20170217163305",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Auction",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Cookmon"
+            }
+        ],
+        "groups": [],
+        "description": "Auctiomon appears as an auctioneer with a golden gavel for a right hand. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Batterimon": {
+        "name": "Batterimon",
+        "url": "/wiki/Batterimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/b3/Batterimon_b.png/revision/latest?cb=20170217160936",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Battery",
+        "power": "190",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Ryo Sugisaki(Appli Monsters)",
+            ""
+        ],
+        "cards": [
+            "BT2-19"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Ecomon"
+            }
+        ],
+        "groups": [],
+        "description": "Batterimon is a Battery Appmon.",
+        "attacks": [
+            {
+                "name": "Electric Charge",
+                "description": ""
+            },
+            {
+                "name": "Clap Spark",
+                "description": ""
+            }
+        ]
+    },
+    "Beautymon": {
+        "name": "Beautymon",
+        "url": "/wiki/Beautymon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/77/Beautymon_b.png/revision/latest?cb=20170609033621",
+        "grade": "Ultimate",
+        "type": "Life",
+        "appli": "Beauty",
+        "power": "45000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Poseidomon",
+                "fusees": [
+                    "Oujamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Knight Unryuji",
+            "Makoto",
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Ayumi Tsunematsu(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "Ultimate 4"
+            }
+        ],
+        "description": "Beautymon is a Beauty Appmon.",
+        "attacks": [
+            {
+                "name": "Rosa Phoenix (Lat: \"Pink Phoenix\")",
+                "description": "Shoots a pink phoenix-shaped energy at the opponent."
+            },
+            {
+                "name": "Venus Rod",
+                "description": ""
+            },
+            {
+                "name": "Wing Pact",
+                "description": ""
+            }
+        ]
+    },
+    "Biomon": {
+        "name": "Biomon",
+        "url": "/wiki/Biomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a6/Biomon_b.png/revision/latest?cb=20170609033345",
+        "grade": "Ultimate",
+        "type": "Life",
+        "appli": "Life",
+        "power": "70000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Docmon",
+                    "Medicmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Hadesmon",
+                "fusees": [
+                    "Revivemon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Takehito Koyasu(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "Ultimate 4"
+            }
+        ],
+        "description": "Biomon is a Life Appmon.",
+        "attacks": [
+            {
+                "name": "Nadel Blaze (Deu",
+                "description": "\"Needle Blaze\")"
+            },
+            {
+                "name": "Dokter Mes (Deu",
+                "description": "\"Doctor Knife\")"
+            }
+        ]
+    },
+    "Bookmon": {
+        "name": "Bookmon",
+        "url": "/wiki/Bookmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/4/42/Bookmon_b.png/revision/latest?cb=20170609042027",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "eBook",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Jishomon"
+            }
+        ],
+        "groups": [],
+        "description": "Bookmon's design is an open story book with eyes and a bookmark. It has a foil band across the cover resembling a pair of glasses. Like most Appmon, it has two cables to allowApplinkthough they're on the sides and are used like arms.",
+        "attacks": []
+    },
+    "Bootmon": {
+        "name": "Bootmon",
+        "url": "/wiki/Bootmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/3c/Bootmon_b.png/revision/latest?cb=20170407032351",
+        "grade": "Ultimate",
+        "type": "Tool",
+        "appli": "Super Boot",
+        "power": "57000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": false,
+                "name": "Logimon",
+                "fusees": []
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Rebootmon",
+                "fusees": [
+                    "Shutmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Protagonist",
+            "Hajime Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Tomo Muranaka(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Bootmon is a Super Boot Appmon. It is an Appmon that digivolved from Logimon.",
+        "attacks": [
+            {
+                "name": "Knuckle Sol (Esp",
+                "description": "\"Sun Knuckle\")"
+            },
+            {
+                "name": "Power Boot",
+                "description": ""
+            }
+        ]
+    },
+    "Bramon": {
+        "name": "Bramon",
+        "url": "/wiki/Bramon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/9a/Bramon_b.png/revision/latest?cb=20170609040517",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "Brain Training",
+        "power": "5000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-34"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Uratekumon"
+            }
+        ],
+        "groups": [],
+        "description": "Bramon is a Brain Training Appmon.",
+        "attacks": [
+            {
+                "name": "Command = Hyper",
+                "description": ""
+            },
+            {
+                "name": "Crazy Brain",
+                "description": ""
+            }
+        ]
+    },
+    "Calendamon": {
+        "name": "Calendamon",
+        "url": "/wiki/Calendamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/3e/Calendamon_b.png/revision/latest?cb=20161209165949",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Calendar",
+        "power": "170",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Keiichi Tsuzita(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Calendamon is a Calendar Appmon.",
+        "attacks": [
+            {
+                "name": "Steal Plan",
+                "description": ""
+            },
+            {
+                "name": "Mystic Holiday",
+                "description": ""
+            }
+        ]
+    },
+    "Calcumon": {
+        "name": "Calcumon",
+        "url": "/wiki/Calcumon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/bf/Calcumon_b.png/revision/latest?cb=20170217162051",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Calculator",
+        "power": "220",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Yuta Kasuya(Appli Monsters)",
+            ""
+        ],
+        "cards": [
+            "BT2-18"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Calcumon is a Calculator Appmon.",
+        "attacks": [
+            {
+                "name": "Count Laser",
+                "description": ""
+            },
+            {
+                "name": "Divide Arm",
+                "description": ""
+            }
+        ]
+    },
+    "Callmon": {
+        "name": "Callmon",
+        "url": "/wiki/Callmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/4/4a/Callmon_b.png/revision/latest?cb=20161002013930",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Phone",
+        "power": "520",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Makoto Kaneko(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Callmon is a Phone Appmon.",
+        "attacks": [
+            {
+                "name": "Connect Line",
+                "description": ""
+            },
+            {
+                "name": "Noisy Calling",
+                "description": ""
+            }
+        ]
+    },
+    "Cameramon": {
+        "name": "Cameramon",
+        "url": "/wiki/Cameramon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/22/Cameramon_b.png/revision/latest?cb=20161004040303",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Camera",
+        "power": "1200",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Scorpmon",
+                "fusees": [
+                    "Shotmon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Kousuke Okano(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [
+            {
+                "language": "En",
+                "name": "Cam\u00e9ramon"
+            }
+        ],
+        "variations": [],
+        "groups": [],
+        "description": "Cameramon is a Camera Appmon.",
+        "attacks": [
+            {
+                "name": "Killing Shutter",
+                "description": ""
+            },
+            {
+                "name": "Spy Focus",
+                "description": ""
+            }
+        ]
+    },
+    "Cardmon": {
+        "name": "Cardmon",
+        "url": "/wiki/Cardmon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/d8/Cardmon_%28Appmon%29_b.png/revision/latest?cb=20161005024630",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Card",
+        "power": "650",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Cardmon is a Card Appmon.",
+        "attacks": [
+            {
+                "name": "Draw Phase",
+                "description": ""
+            },
+            {
+                "name": "Blank Card",
+                "description": ""
+            }
+        ]
+    },
+    "Coachmon": {
+        "name": "Coachmon",
+        "url": "/wiki/Coachmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/91/Coachmon_b.png/revision/latest?cb=20161209170107",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "Training",
+        "power": "6000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Oujamon",
+                "fusees": [
+                    "Dosukomon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Tsuyoshi Koyama(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Coachmon is a Training Appmon.",
+        "attacks": [
+            {
+                "name": "Ikatsu Oni Kong\u014d Hon (\u6012\u30c4\u9b3c\u91d1\u525b\u68cd, Ikatsu Oni Kong\u014d Hon lit. \"Angry Gigantic Club\")",
+                "description": ""
+            },
+            {
+                "name": "Ai no Ny\u016bkon Kanabou (\u611b\u306e\u5165\u9b42\u91d1\u68d2, Ai no Ny\u016bkon Kanabou lit. \"Love's Entrance Bar\")",
+                "description": ""
+            }
+        ]
+    },
+    "Consulmon": {
+        "name": "Consulmon",
+        "url": "/wiki/Consulmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/8e/Consulmon_b.png/revision/latest?cb=20170609042434",
+        "grade": "Super",
+        "type": "Life",
+        "appli": "Saving",
+        "power": "6400",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Vegasmon"
+            }
+        ],
+        "groups": [],
+        "description": "Consulmon is a Saving Appmon.",
+        "attacks": [
+            {
+                "name": "Thrift Answer",
+                "description": ""
+            },
+            {
+                "name": "Octoparath",
+                "description": ""
+            }
+        ]
+    },
+    "Cookmon": {
+        "name": "Cookmon",
+        "url": "/wiki/Cookmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/bd/Cookmon_b.png/revision/latest?cb=20161209170214",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Cooking",
+        "power": "200",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Hitoshi Bifu(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Auctiomon"
+            }
+        ],
+        "groups": [],
+        "description": "Cookmon is a Cooking Appmon.",
+        "attacks": [
+            {
+                "name": "Astro Cooking",
+                "description": ""
+            },
+            {
+                "name": "Soul Full Course",
+                "description": ""
+            }
+        ]
+    },
+    "Coordemon": {
+        "name": "Coordemon",
+        "url": "/wiki/Coordemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e6/Coordemon_b.png/revision/latest?cb=20170609040109",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Coordinate",
+        "power": "9600",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-32"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Coordemon is a Coordinate Appmon.",
+        "attacks": [
+            {
+                "name": "Metamor Coorde",
+                "description": ""
+            },
+            {
+                "name": "Fitting Arrow",
+                "description": ""
+            }
+        ]
+    },
+    "Cometmon": {
+        "name": "Cometmon",
+        "url": "/wiki/Cometmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/34/Cometmon_b.png/revision/latest?cb=20170407032231",
+        "grade": "Ultimate",
+        "type": "Navi",
+        "appli": "Astrology",
+        "power": "65000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Deusmon",
+                "fusees": [
+                    "Warudamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Knight Unryuji"
+        ],
+        "voiceActors": [
+            "(Ja:)Tatsuya Kobayashi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Cometmon is an Astrology Appmon.",
+        "attacks": [
+            {
+                "name": "Gigant \u00c4rger (Deu: \"Giant Anger\")",
+                "description": ""
+            },
+            {
+                "name": "Meteor Rain",
+                "description": ""
+            }
+        ]
+    },
+    "Compassmon": {
+        "name": "Compassmon",
+        "url": "/wiki/Compassmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/bb/Compassmon_b.png/revision/latest?cb=20161209170455",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Compass",
+        "power": "230",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Sora Takahata(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Watchmon"
+            }
+        ],
+        "groups": [],
+        "description": "Compassmon is a Compass Appmon.",
+        "attacks": [
+            {
+                "name": "Guruguru Panic (\u3050\u308b\u3050\u308b\u30d1\u30cb\u30c3\u30af, Guruguru Panic lit. \"Spinning Panic\")",
+                "description": ""
+            },
+            {
+                "name": "Spin Deflection",
+                "description": ""
+            }
+        ]
+    },
+    "Copipemon": {
+        "name": "Copipemon",
+        "url": "/wiki/Copipemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/1c/Copipemon_b.png/revision/latest?cb=20161209165430",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Copy/Paste",
+        "power": "710",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Mienumon",
+                "fusees": [
+                    "Kabemon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Nao Nagasawa(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Savemon"
+            }
+        ],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Copipemon is a Copy/Paste Appmon.",
+        "attacks": [
+            {
+                "name": "Copy & Paste",
+                "description": "Creates mass amounts of copies of himself that attack the enemy in a variety of ways."
+            },
+            {
+                "name": "Cheap Imitation",
+                "description": ""
+            }
+        ]
+    },
+    "Charismon": {
+        "name": "Charismon",
+        "url": "/wiki/Charismon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/Charismon_b.png/revision/latest?cb=20170609033016",
+        "grade": "Ultimate",
+        "type": "Social",
+        "appli": "Mind Control",
+        "power": "55000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Gossipmon",
+                    "Sociamon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Gaiamon",
+                "fusees": [
+                    "Globemon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Knight Unryuji",
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Yuichi Nakamura(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Globemon"
+            }
+        ],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "Ultimate 4"
+            }
+        ],
+        "description": "Charismon is a Mind Control Appmon.",
+        "attacks": [
+            {
+                "name": "Seele Gewalt (Deu: \"Soul Violence\")",
+                "description": "Creates a giant purple energy ball and throws it at opponent."
+            },
+            {
+                "name": "Aleph = Ein (Heb",
+                "description": "\"First = Infinite\")"
+            }
+        ]
+    },
+    "Craftmon": {
+        "name": "Craftmon",
+        "url": "/wiki/Craftmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/05/Craftmon_b.png/revision/latest?cb=20170407034422",
+        "grade": "Super",
+        "type": "Tool",
+        "appli": "Design",
+        "power": "7200",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Bootmon",
+                "fusees": [
+                    "Logimon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Kagefumi"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT2-33"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Medicmon"
+            }
+        ],
+        "groups": [],
+        "description": "Craftmon is a Design Appmon.",
+        "attacks": [
+            {
+                "name": "Tokkan Maker",
+                "description": ""
+            },
+            {
+                "name": "Zone Architect",
+                "description": ""
+            }
+        ]
+    },
+    "Damedamon": {
+        "name": "Damedamon",
+        "url": "/wiki/Damedamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/8a/Damedamon_b.png/revision/latest?cb=20170609041544",
+        "grade": "Ultimate",
+        "type": "Social",
+        "appli": "Damedame",
+        "power": "38000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Shin Matsushige(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Damedamon is a Damedame Appmon.",
+        "attacks": [
+            {
+                "name": "M\u014ddameda~ (\u3082\u3046\u30c0\u30e1\u3060\uff5e, M\u014ddameda~ lit. \"I Can't Do It~\")",
+                "description": ""
+            },
+            {
+                "name": "Dame Damage (\u30c0\u30e1\u30c0\u30e1\u30fc\u30b8, Dame Damage lit. \"Useless Damage\")",
+                "description": ""
+            }
+        ]
+    },
+    "Dancemon": {
+        "name": "Dancemon",
+        "url": "/wiki/Dancemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/61/Dancemon_b.png/revision/latest?cb=20161209171125",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Rhythm",
+        "power": "440",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Musimon"
+            },
+            {
+                "language": "NA",
+                "name": "MCmon"
+            }
+        ],
+        "groups": [],
+        "description": "Dancemon is a Rhythm Appmon.",
+        "attacks": [
+            {
+                "name": "Uplock Beat",
+                "description": ""
+            },
+            {
+                "name": "Crazy Step",
+                "description": ""
+            }
+        ]
+    },
+    "Dantemon": {
+        "name": "Dantemon",
+        "url": "/wiki/Dantemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/da/Dantemon_b.png/revision/latest?cb=20170318023516",
+        "grade": "None",
+        "type": "None",
+        "appli": "Open",
+        "power": "77777",
+        "debut": [
+            "Digimon Universe: Appli Monsters (manga),",
+            "\"Minerva and Leviathan!!\" [06]"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Rikiya Koyama(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dantemon resembles a humanoid robot. It has glowing colored spheres on its shoulders, hands, knees.  chest and head and green hair.",
+        "attacks": []
+    },
+    "Denpamon": {
+        "name": "Denpamon",
+        "url": "/wiki/Denpamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/78/Denpamon_b.png/revision/latest?cb=20170407042455",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Communication",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Jammingmon"
+            },
+            {
+                "language": "NA",
+                "name": "Onpamon"
+            }
+        ],
+        "groups": [],
+        "description": "Denpamon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they're on the sides of it head and are used like arms.",
+        "attacks": []
+    },
+    "Deusmon": {
+        "name": "Deusmon",
+        "url": "/wiki/Deusmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/5c/Deusmon_b.png/revision/latest?cb=20170728033801",
+        "grade": "God",
+        "type": "God",
+        "appli": "Omnipotence",
+        "power": "340000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Warudamon",
+                    "Cometmon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Yujin Ozora",
+            "Knight Unryuji"
+        ],
+        "voiceActors": [
+            "(Ja:)Ryuzaburou Ohtomo(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [
+            {
+                "language": "NA",
+                "name": "Deusumon"
+            }
+        ],
+        "variations": [],
+        "groups": [],
+        "description": "Deusmon is an Omnipotence Appmon.",
+        "attacks": [
+            {
+                "name": "Initial Zero",
+                "description": "Builds energy with its hands, then launches an orb-shaped energy field that disintegrates anything in its radius."
+            },
+            {
+                "name": "Code",
+                "description": "Origin"
+            }
+        ]
+    },
+    "Dezipmon": {
+        "name": "Dezipmon",
+        "url": "/wiki/Dezipmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f6/Dezipmon_b.png/revision/latest?cb=20161209171012",
+        "grade": "Super",
+        "type": "System",
+        "appli": "Zip/Unzip",
+        "power": "10500",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Revivemon",
+                "fusees": ["Raidramon"]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Shouma Yamamoto(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dezipmon is a Zip/Unzip Appmon.",
+        "attacks": [
+            {
+                "name": "Absorb Zip",
+                "description": "Opens the zipper in its body and absorbs its target's data."
+            },
+            {
+                "name": "Unfreeze Fist",
+                "description": "Runs towards the enemy to deliver a punch."
+            }
+        ]
+    },
+    "Diarimon": {
+        "name": "Diarimon",
+        "url": "/wiki/Diarimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e3/Diarimon_b.png/revision/latest?cb=20170609042702",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Diary",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Addmon"
+            }
+        ],
+        "groups": [],
+        "description": "Diarimon appears as andiarywith an eye looking out of the keyhole of its lock. Its arms arefountain pens, and it wears a key around its neck. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Dicemon": {
+        "name": "Dicemon",
+        "url": "/wiki/Dicemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/cb/Dicemon_b.png/revision/latest?cb=20170217165003",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Dice",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dicemon is a die with a single eye on the onepipface. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Docmon": {
+        "name": "Docmon",
+        "url": "/wiki/Docmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a9/Docmon_b.png/revision/latest?cb=20170609040305",
+        "grade": "Super",
+        "type": "Life",
+        "appli": "Doctor",
+        "power": "8800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Dopemon",
+                    "Virusmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Biomon",
+                "fusees": [
+                    "Medicmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Businessman",
+            "Rei Katsura"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-35"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Docmon is a Doctor Appmon.",
+        "attacks": [
+            {
+                "name": "Spiral Trigger",
+                "description": "Launches the liquids from its syringes, forming a spiral with them."
+            },
+            {
+                "name": "Madness Syringe",
+                "description": ""
+            }
+        ]
+    },
+    "DoGatchmon": {
+        "name": "DoGatchmon",
+        "url": "/wiki/DoGatchmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/DoGatchmon_b.png/revision/latest?cb=20161002023128",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "Super Search",
+        "power": "7500",
+        "debut": [
+            "Digimon Universe: Appli Monsters (manga),",
+            "\"Protagonist Launch\" [01]"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Gatchmon",
+                    "Navimon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Globemon",
+                "fusees": [
+                    "Timemon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Cocoro Kikuchi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "DoGatchmon is a Super Search Appmon.",
+        "attacks": [
+            {
+                "name": "Deep Dive",
+                "description": "Warps the pointers to create a portal into the Net Ocean, and dives in to look for the result of a search."
+            },
+            {
+                "name": "DoGatch Buster",
+                "description": "Warps the pointers to its hands, then fires a powerful blast of energy."
+            },
+            {
+                "name": "Sonic Slash",
+                "description": "Combines two of its pointers into a sword, and slashes at the opponent."
+            }
+        ]
+    },
+    "Dokamon": {
+        "name": "Dokamon",
+        "url": "/wiki/Dokamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Dokamon_b.png/revision/latest?cb=20161004050100",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Action",
+        "power": "900 in Appli Drive1350 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Dosukomon",
+                "fusees": [
+                    "Perorimon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Motoko Kumai(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dokamon is an Action Appmon.",
+        "attacks": [
+            {
+                "name": "Doka-Doka Rush",
+                "description": "Surrounds itself with an aura and flies towards the opponent like a meteor while punching them multiple times."
+            },
+            {
+                "name": "Big Bang Punch (Dokkan Punch)",
+                "description": "Flies towards the enemy while surrounding itself with comet-like energy, then delivers a punch."
+            }
+        ]
+    },
+    "Dopemon": {
+        "name": "Dopemon",
+        "url": "/wiki/Dopemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/d4/Dopemon_duam3ds.png/revision/latest?cb=20190107014425",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Enhancement",
+        "power": "360",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Docmon",
+                "fusees": [
+                    "Virusmon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-05"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Supplemon"
+            }
+        ],
+        "groups": [],
+        "description": "Dopemon is an Enhancement Appmon.",
+        "attacks": [
+            {
+                "name": "Vital Limit",
+                "description": ""
+            },
+            {
+                "name": "Overpower",
+                "description": ""
+            }
+        ]
+    },
+    "Dosukomon": {
+        "name": "Dosukomon",
+        "url": "/wiki/Dosukomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c0/Dosukomon_b.png/revision/latest?cb=20161005032852",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "Fighting",
+        "power": "11000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Dokamon",
+                    "Perorimon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Oujamon",
+                "fusees": [
+                    "Coachmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Motoko Kumai(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dosukomon is a Fighting Appmon.",
+        "attacks": [
+            {
+                "name": "Dohyou Field",
+                "description": ""
+            },
+            {
+                "name": "Jet Palm Slap (\u30b8\u30a7\u30c3\u30c8\u5f35\u624b, Jetto Harite, lit. \"Jet Speed Slap\")",
+                "description": "Uses its thrusters to fly to the enemy at high speeds, then hits them with the palm of its gauntlets."
+            },
+            {
+                "name": "Jet Headbutt\u00a0",
+                "description": "Flies towards the enemy at high speeds, then delivers a headbutt."
+            }
+        ]
+    },
+    "Dogamon": {
+        "name": "Dogamon",
+        "url": "/wiki/Dogamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/b7/Dogamon_b.png/revision/latest?cb=20161004033339",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Video",
+        "power": "740",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dogamon is a Video Appmon.",
+        "attacks": [
+            {
+                "name": "Channel Play",
+                "description": ""
+            },
+            {
+                "name": "Dark Monitor",
+                "description": ""
+            }
+        ]
+    },
+    "Drawmon": {
+        "name": "Drawmon",
+        "url": "/wiki/Drawmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/81/Drawmon_b.png/revision/latest?cb=20161209161509",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Paint",
+        "power": "800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Akio Suyama(Appli Monsters)",
+            ""
+        ],
+        "cards": [
+            "BT1-11"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Drawmon is a Paint Appmon.",
+        "attacks": [
+            {
+                "name": "Vital Limit",
+                "description": ""
+            },
+            {
+                "name": "Overpower",
+                "description": ""
+            }
+        ]
+    },
+    "Dreammon": {
+        "name": "Dreammon",
+        "url": "/wiki/Dreammon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/ff/Dreammon_b.png/revision/latest?cb=20170217164224",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Dream",
+        "power": "7800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Entermon",
+                "fusees": [
+                    "Mediamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Tadashi Miyazawa(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Weatherdoramon"
+            }
+        ],
+        "groups": [],
+        "description": "Dreammon is a Dream Appmon.",
+        "attacks": [
+            {
+                "name": "Non-REM Puppet",
+                "description": ""
+            },
+            {
+                "name": "Dream Theater",
+                "description": ""
+            }
+        ]
+    },
+    "Dressmon": {
+        "name": "Dressmon",
+        "url": "/wiki/Dressmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/af/Dressmon_b.png/revision/latest?cb=20161004034441",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Fashion",
+        "power": "240",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Mayumi Shintani(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Dressmon is a Fashion Appmon.",
+        "attacks": [
+            {
+                "name": "Sewing Needle",
+                "description": ""
+            },
+            {
+                "name": "Shamming Stitch",
+                "description": ""
+            }
+        ]
+    },
+    "Ecomon": {
+        "name": "Ecomon",
+        "url": "/wiki/Ecomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Ecomon_b.png/revision/latest?cb=20170407040241",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Energy Saving",
+        "power": "100",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Batterimon"
+            }
+        ],
+        "groups": [],
+        "description": "Ecomon is essentially a humanoidbatterywith a plant growing out of its head. However, it is heavily covered in knight-like armor. It also occupies bulky arms, a spiked toe on each foot, and a v-neck design on the torso, referencing volts. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Effecmon": {
+        "name": "Effecmon",
+        "url": "/wiki/Effecmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/2a/Effecmon_b.png/revision/latest?cb=20170217161728",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Effect",
+        "power": "7000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-25"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Effecmon is an Effect Appmon.",
+        "attacks": [
+            {
+                "name": "Color's Mother",
+                "description": ""
+            },
+            {
+                "name": "Paint Dragon",
+                "description": ""
+            }
+        ]
+    },
+    "Entermon": {
+        "name": "Entermon",
+        "url": "/wiki/Entermon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f7/Entermon_b.png/revision/latest?cb=20170217164007",
+        "grade": "Ultimate",
+        "type": "Entertainment",
+        "appli": "Entertainment",
+        "power": "42000 in Appli Drive63000 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Mediamon",
+                    "Dreammon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Ouranosmon",
+                "fusees": [
+                    "Fakemon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Nao Tamura(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Entermon is an Entertainment Appmon.",
+        "attacks": [
+            {
+                "name": "Happy Phantom",
+                "description": "Draws the enemy's attention by asking them if they are ready."
+            },
+            {
+                "name": "Porte Melos (Fra: \"Melos Staves\")",
+                "description": "Fires 4, rainbow-colored, energy music staffs at the enemy that travel in a wave-like pattern."
+            }
+        ]
+    },
+    "Fakemon": {
+        "name": "Fakemon",
+        "url": "/wiki/Fakemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/b2/Fakemon_b.png/revision/latest?cb=20170609033817",
+        "grade": "Ultimate",
+        "type": "Tool",
+        "appli": "Camouflage",
+        "power": "50000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Ouranosmon",
+                "fusees": [
+                    "Entermon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Knight Unryuji",
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Tetsu Shiratori(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "Ultimate 4"
+            }
+        ],
+        "description": "Fakemon is a Camouflage Appmon.",
+        "attacks": [
+            {
+                "name": "Imitation Noise",
+                "description": ""
+            },
+            {
+                "name": "Crown Mask",
+                "description": ""
+            }
+        ]
+    },
+    "Flickmon": {
+        "name": "Flickmon",
+        "url": "/wiki/Flickmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/5f/Flickmon_%28Game%29_duam3ds.png/revision/latest?cb=20211023074507",
+        "grade": "Standard",
+        "type": "SocialNaviToolSystemGameEntertainmentLife",
+        "appli": "Flick",
+        "power": "8",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Flickmon appears to have a round body with a face. It has four pointed feet with no legs. It has a design depicting four small squares surrounding a large square on its forehead. It has two floppy ears on either side of its head. Its color depends on its type.",
+        "attacks": []
+    },
+    "Gaiamon": {
+        "name": "Gaiamon",
+        "url": "/wiki/Gaiamon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c5/Gaiamon_%28Appmon%29_b.png/revision/latest?cb=20170728034244",
+        "grade": "God",
+        "type": "God",
+        "appli": "Creation",
+        "power": "300000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Globemon",
+                    "Charismon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Gaiamon is a Creation Appmon.",
+        "attacks": [
+            {
+                "name": "Ultimate Adamas",
+                "description": "Summon a giant blue spear of light via portal and throws it at the opponent."
+            },
+            {
+                "name": "Imagine Maar",
+                "description": ""
+            }
+        ]
+    },
+    "Gashamon": {
+        "name": "Gashamon",
+        "url": "/wiki/Gashamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/23/Gashamon_b.png/revision/latest?cb=20161004035000",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Gasha",
+        "power": "300",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Tarotmon",
+                "fusees": [
+                    "Tellermon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Wakaba"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Pipomon"
+            }
+        ],
+        "groups": [],
+        "description": "Gashamon is a Gasha Appmon.",
+        "attacks": [
+            {
+                "name": "Gashagashapon",
+                "description": ""
+            },
+            {
+                "name": "Dokkiri Capsule (\u30c9\u30c3\u30ad\u30ea\u30ab\u30d7\u30bb\u30eb, Dokkiri Kapuseru, lit. \"Blind Capsule\")",
+                "description": ""
+            }
+        ]
+    },
+    "Gatchmon": {
+        "name": "Gatchmon",
+        "url": "/wiki/Gatchmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/4/46/Gatchmon_b.png/revision/latest?cb=20161002012433",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Search",
+        "power": "1000 in Appli Drive1500 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters (manga),",
+            "\"Protagonist Launch\" [01]"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "DoGatchmon",
+                "fusees": [
+                    "Navimon"
+                ]
+            },
+            {
+                "fusion": true,
+                "name": "Logimon",
+                "fusees": [
+                    "Onmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai",
+            "Protagonist (Appli Monsters)"
+        ],
+        "voiceActors": [
+            "(Ja:)Cocoro Kikuchi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [
+            {
+                "language": "Ja",
+                "name": "Gacchimon"
+            },
+            {
+                "language": "Ja",
+                "name": "Gatch-Mon"
+            },
+            {
+                "language": "Ko",
+                "name": "Searchmon"
+            }
+        ],
+        "variations": [],
+        "groups": [],
+        "description": "Gatchmon is a Search Appmon.",
+        "attacks": [
+            {
+                "name": "Deep Search",
+                "description": "Launches one of its claws into a search engine to find the results of a search."
+            },
+            {
+                "name": "Gatch Claw",
+                "description": "Coats one of its claws in energy, then slashes the opponent."
+            }
+        ]
+    },
+    "Gengomon": {
+        "name": "Gengomon",
+        "url": "/wiki/Gengomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/63/Gengomon_b.png/revision/latest?cb=20170217164808",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Translation",
+        "power": "460",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Roamon",
+                "fusees": [
+                    "Jammingmon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Tubumon"
+            }
+        ],
+        "groups": [],
+        "description": "Gengomon is a Translation Appmon.",
+        "attacks": [
+            {
+                "name": "Babel Shaberu (\u30d0\u30d9\u30eb\u30b7\u30e3\u30d9\u30eb, Babel Shaberu lit. \"Babel Talk\")",
+                "description": ""
+            },
+            {
+                "name": "Babel Damaru (\u30d0\u30d9\u30eb\u30c0\u30de\u30eb, Babel Damaru lit. \"Babel Silence\")",
+                "description": ""
+            }
+        ]
+    },
+    "Globemon": {
+        "name": "Globemon",
+        "url": "/wiki/Globemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f5/Globemon_b.png/revision/latest?cb=20170217161048",
+        "grade": "Ultimate",
+        "type": "Social",
+        "appli": "Global",
+        "power": "7000060000 in Appli Drive90000 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "DoGatchmon",
+                    "Timemon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Gaiamon",
+                "fusees": [
+                    "Charismon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai",
+            "Protagonist"
+        ],
+        "voiceActors": [
+            "(Ja:)Cocoro Kikuchi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Charismon"
+            }
+        ],
+        "groups": [],
+        "description": "Globemon is a Global Appmon.",
+        "attacks": [
+            {
+                "name": "Ultimate Search",
+                "description": "Scans up to the entire planet in search of any foes running loose."
+            },
+            {
+                "name": "Glanz Gazer (Deu: \"Shining Gazer\")",
+                "description": "Surrounds itself with energy, then fires a beam from its chest. If needed, the beam then splits and separates to deal with threats at a global scale."
+            },
+            {
+                "name": "Schwert Cutter (Deu: \"Sword Cutter\")",
+                "description": "Cuts open the target with the blades mounted on his wrist."
+            }
+        ]
+    },
+    "Gomimon": {
+        "name": "Gomimon",
+        "url": "/wiki/Gomimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/ac/Gomimon_b.png/revision/latest?cb=20161115042239",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Trashbin",
+        "power": "10",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Yasuhiro Takato(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Gomimon is a Trashbin Appmon.",
+        "attacks": [
+            {
+                "name": "Dust Hunt",
+                "description": ""
+            }
+        ]
+    },
+    "Gossipmon": {
+        "name": "Gossipmon",
+        "url": "/wiki/Gossipmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/91/Gossipmon_b.png/revision/latest?cb=20170609035915",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "Gossip",
+        "power": "4800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Kosomon",
+                    "Newsmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Charismon",
+                "fusees": [
+                    "Sociamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Ryouji",
+            "Haru Shinkai"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "ST1-05"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Gossipmon is a Gossip Appmon.",
+        "attacks": [
+            {
+                "name": "Blaze Slang",
+                "description": ""
+            },
+            {
+                "name": "Negative Raster",
+                "description": ""
+            }
+        ]
+    },
+    "Gugumon": {
+        "name": "Gugumon",
+        "url": "/wiki/Gugumon",
+        "image": "",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Search",
+        "power": "1100",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Hackmon": {
+        "name": "Hackmon",
+        "url": "/wiki/Hackmon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/dd/Hackmon_%28Appmon%29_b.png/revision/latest?cb=20161003044139",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Hacking",
+        "power": "1400 in Appli Drive2100 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Raidramon",
+                "fusees": [
+                    "Protecmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Daisuke Sakaguchi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Hackmon is a Hacking Appmon.",
+        "attacks": [
+            {
+                "name": "Vanquish Claw",
+                "description": "Enlarges its right claw which then sprouts robotic hands that extend to grab and attack any foe. This attack is capable of breaking up Applinks."
+            },
+            {
+                "name": "Strange Hack",
+                "description": ""
+            }
+        ]
+    },
+    "Hadesmon": {
+        "name": "Hadesmon",
+        "url": "/wiki/Hadesmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/89/Hadesmon_b.png/revision/latest?cb=20170728035355",
+        "grade": "God",
+        "type": "God",
+        "appli": "Variation",
+        "power": "315000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Revivemon",
+                    "Biomon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Daisuke Sakaguchi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Hadesmon is a Variation Appmon.",
+        "attacks": [
+            {
+                "name": "Melan-Explode (\u03bc\u03ad\u03bb\u03b1\u03bd-Explode lit. \"Black-Explode\")",
+                "description": "Gathers energy in the form of a massive ball, and throws it underneath the enemy, causing a giant bolt of lightning to appear, and attack the enemy. This attack can also break through the surface web."
+            },
+            {
+                "name": "Hell Kakia (Hell \u03ba\u03b1\u03ba\u03af\u03b1 lit. \"Hell Malice\")",
+                "description": "Sinks its tail into the ground to create cracks that fold an entire dimension on top of the enemy."
+            }
+        ]
+    },
+    "Jammingmon": {
+        "name": "Jammingmon",
+        "url": "/wiki/Jammingmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/21/Jammingmon_b.png/revision/latest?cb=20170609035332",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Jamming",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Roamon",
+                "fusees": [
+                    "Gengomon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Denpamon"
+            },
+            {
+                "language": "NA",
+                "name": "Onpamon"
+            }
+        ],
+        "groups": [],
+        "description": "Jammingmon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they're on the sides of it head and are used like arms.",
+        "attacks": []
+    },
+    "Jetmon": {
+        "name": "Jetmon",
+        "url": "/wiki/Jetmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/98/Jetmon_b.png/revision/latest?cb=20170609035755",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Flight",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Tripmon",
+                "fusees": [
+                    "Yadomon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Makoto"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Jetmon appears to be a cross between aPteranodonand anairplane. It has claws at the tips of its wings which hold missiles. Jetmon appears to be an Appmon version ofPteramon. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Jishomon": {
+        "name": "Jishomon",
+        "url": "/wiki/Jishomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/94/Jishomon_b.png/revision/latest?cb=20170609034707",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Dictionary",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Shinya Takahashi(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Bookmon"
+            }
+        ],
+        "groups": [],
+        "description": "Jishomon's design is an open dictionary with eyes and a bookmark. It has a foil band across the cover resembling a pair of glasses. Like most Appmon, it has two cables to allowApplinkthough they're on the sides and are used like arms.",
+        "attacks": []
+    },
+    "JumpPlusmon": {
+        "name": "JumpPlusmon",
+        "url": "/wiki/JumpPlusmon",
+        "image": "",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Jump+",
+        "power": "550",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Kabemon": {
+        "name": "Kabemon",
+        "url": "/wiki/Kabemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/4/44/Kabemon_b.png/revision/latest?cb=20170217161936",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Wallpaper",
+        "power": "140",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Mienumon",
+                "fusees": [
+                    "Copipemon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-22"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Gashamon"
+            }
+        ],
+        "groups": [],
+        "description": "Kabemon is a Wallpaper Appmon.",
+        "attacks": [
+            {
+                "name": "Real Projection",
+                "description": ""
+            },
+            {
+                "name": "Recovery Wall",
+                "description": ""
+            }
+        ]
+    },
+    "Kaimon": {
+        "name": "Kaimon",
+        "url": "/wiki/Kaimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/ab/Kaimon_b.png/revision/latest?cb=20170217165340",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Shopping",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Kakeimon"
+            }
+        ],
+        "groups": [],
+        "description": "Kaimon appears to be a white Appmon with a bluecoin pursefor a body, ayen signon its face, and wears a white apron just likeKakeimon. Its appearance like that of a housewife is possibly due to the stereotype that the housewife performs the shopping. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Kakeimon": {
+        "name": "Kakeimon",
+        "url": "/wiki/Kakeimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e8/Kakeimon_b.png/revision/latest?cb=20170407041251",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Account Book",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Kaimon"
+            }
+        ],
+        "groups": [],
+        "description": "Kakeimon appears to be a black Appmon with a pinkcoin pursefor a body, a pink heart on its face, and wears a white apron. Its appearance like that of a housewife is possibly due to the Japanese stereotype that the housewife controls the household finances. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Kosomon": {
+        "name": "Kosomon",
+        "url": "/wiki/Kosomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/d3/Kosomon_b.png/revision/latest?cb=20161201005142",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Gossip Review",
+        "power": "230",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Gossipmon",
+                "fusees": [
+                    "Newsmon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Reviewmon"
+            }
+        ],
+        "groups": [],
+        "description": "Kosomon is a Gossip Review Appmon.",
+        "attacks": [
+            {
+                "name": "Idobata Paper",
+                "description": ""
+            },
+            {
+                "name": "Kossori Work",
+                "description": ""
+            }
+        ]
+    },
+    "Libramon": {
+        "name": "Libramon",
+        "url": "/wiki/Libramon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e8/Libramon_b.png/revision/latest?cb=20170609042926",
+        "grade": "Super",
+        "type": "Life",
+        "appli": "Library",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Libramon appears to be aprofessorwith a bookshelf filled with books for a head. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Lightmon": {
+        "name": "Lightmon",
+        "url": "/wiki/Lightmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/ea/Lightmon_b.png/revision/latest?cb=20170407041557",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Light",
+        "power": "150",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-13"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Lightmon is a Light Appmon.",
+        "attacks": [
+            {
+                "name": "Bright Flash",
+                "description": ""
+            },
+            {
+                "name": "Shining Body",
+                "description": ""
+            }
+        ]
+    },
+    "Logimon": {
+        "name": "Logimon",
+        "url": "/wiki/Logimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/af/Logimon_b.png/revision/latest?cb=20170407034717",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "Login",
+        "power": "7200",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Gatchmon",
+                    "Onmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Bootmon",
+                "fusees": [
+                    "Craftmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Protagonist"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Logimon is a Login Appmon. It is an Appmon that digivolved from Onmon.",
+        "attacks": [
+            {
+                "name": "Kreis Tornado (Deu",
+                "description": "\"Circular Tornado\")"
+            },
+            {
+                "name": "Logi Plasma",
+                "description": ""
+            }
+        ]
+    },
+    "Logomon": {
+        "name": "Logomon",
+        "url": "/wiki/Logomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c8/Logomon_b.png/revision/latest?cb=20170407034631",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "Logout",
+        "power": "7200",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Unspecified Appmon",
+                    "Offmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": false,
+                "name": "Shutmon",
+                "fusees": [
+                    "Unspecified Appmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Naoto",
+            "Yujin Ozora[3]"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Logomon is a Logout Appmon. It is an Appmon that digivolved from Offmon.",
+        "attacks": [
+            {
+                "name": "Scratch Ban",
+                "description": ""
+            },
+            {
+                "name": "Loga Blast",
+                "description": ""
+            }
+        ]
+    },
+    "Luckmon": {
+        "name": "Luckmon",
+        "url": "/wiki/Luckmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Luckmon_b.png/revision/latest?cb=20170217165526",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Slot",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Moneymon"
+            }
+        ],
+        "groups": [],
+        "description": "Luckmon appears to be aslot machinewith its eyes and nose on the slots. Instead of arms, it has two slot machine levers to act as such. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Mailmon": {
+        "name": "Mailmon",
+        "url": "/wiki/Mailmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a8/Mailmon_b.png/revision/latest?cb=20161002030116",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Mail",
+        "power": "510",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Cota Nemoto(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Mailmon is a Mail Appmon.",
+        "attacks": [
+            {
+                "name": "Mail Darts",
+                "description": ""
+            },
+            {
+                "name": "Trouble Post",
+                "description": ""
+            }
+        ]
+    },
+    "MCmon": {
+        "name": "MCmon",
+        "url": "/wiki/MCmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/67/MCmon_b.png/revision/latest?cb=20161201005427",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Live Commentary",
+        "power": "780",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Riki Kitazawa(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Musimon"
+            },
+            {
+                "language": "NA",
+                "name": "Dancemon"
+            }
+        ],
+        "groups": [],
+        "description": "MCmon is a Live Commentary Appmon.",
+        "attacks": [
+            {
+                "name": "Soul Shout",
+                "description": ""
+            },
+            {
+                "name": "Jikky\u014d Crisis (\u30b8\u30c3\u30ad\u30e7\u30fc\u30af\u30e9\u30a4\u30b7\u30b9, Jikky\u014d Crisis lit. \"Live Crisis\")",
+                "description": ""
+            }
+        ]
+    },
+    "Mediamon": {
+        "name": "Mediamon",
+        "url": "/wiki/Mediamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/70/Mediamon_b.png/revision/latest?cb=20161209160454",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Media Player",
+        "power": "5800",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Musimon",
+                    "Recomon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Entermon",
+                "fusees": [
+                    "Dreammon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro Asuka"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Mediamonis a Media Player Appmon.",
+        "attacks": [
+            {
+                "name": "VirtualVerse",
+                "description": "Generates a giant warship from out of nowhere, then uses its ion gun to attack the opponent."
+            },
+            {
+                "name": "Howling Blast",
+                "description": "Fires a supersonic pulse from its speakers."
+            }
+        ]
+    },
+    "Medicmon": {
+        "name": "Medicmon",
+        "url": "/wiki/Medicmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/8a/Medicmon_b.png/revision/latest?cb=20170217165139",
+        "grade": "Super",
+        "type": "Life",
+        "appli": "Medical",
+        "power": "8000",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Biomon",
+                "fusees": [
+                    "Docmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Jun'ichi Yanagita(Appl Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Craftmon"
+            }
+        ],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Medicmon is a Medical Appmon.",
+        "attacks": [
+            {
+                "name": "One Operation",
+                "description": ""
+            },
+            {
+                "name": "Wonder Medicine",
+                "description": ""
+            }
+        ]
+    },
+    "Messemon": {
+        "name": "Messemon",
+        "url": "/wiki/Messemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Messemon_b.png/revision/latest?cb=20161002042234",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Message",
+        "power": "500",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Mitsuo Iwata(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Puzzlemon"
+            }
+        ],
+        "groups": [],
+        "description": "Messemon is a Message Appmon.",
+        "attacks": [
+            {
+                "name": "Messe Stream Attack",
+                "description": "Fires off texting bubbles."
+            },
+            {
+                "name": "Kotodama Rain",
+                "description": ""
+            }
+        ]
+    },
+    "Mienumon": {
+        "name": "Mienumon",
+        "url": "/wiki/Mienumon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/7b/Mienumon_b.png/revision/latest?cb=20161209170943",
+        "grade": "Super",
+        "type": "System",
+        "appli": "Stealth",
+        "power": "8400",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Copipemon",
+                    "Kabemon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Warudamon",
+                "fusees": [
+                    "Sakusimon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Kayo"
+        ],
+        "voiceActors": [
+            "(Ja:)Shiori Izawa(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Mienumon is a Stealth Appmon.",
+        "attacks": [
+            {
+                "name": "Stealth Cape",
+                "description": "Assimilates the appearance of the environment and becomes undetectable."
+            },
+            {
+                "name": "Chameleon Lick",
+                "description": "Makes what Montana-chan's tongue touches blended with the environment."
+            }
+        ]
+    },
+    "MiniCometmon": {
+        "name": "MiniCometmon",
+        "url": "/wiki/MiniCometmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/34/Cometmon_b.png/revision/latest?cb=20170407032231",
+        "grade": "Ultimate",
+        "type": "Navi",
+        "appli": "Astrology",
+        "power": "65000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (manga),",
+            "\"The Devil's Hand!!\" [07]"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "MiniCometmon appears as a silver comet-shaped spaceship with two silver eyes. It also has two spikes on its bottom front.",
+        "attacks": []
+    },
+    "Mirrormon": {
+        "name": "Mirrormon",
+        "url": "/wiki/Mirrormon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/23/Mirrormon_b.png/revision/latest?cb=20170217161443",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Mirror",
+        "power": "700",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-17"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Mirrormon is a Mirror Appmon.",
+        "attacks": [
+            {
+                "name": "Capture Mirror",
+                "description": ""
+            },
+            {
+                "name": "Mirror's Revenge",
+                "description": ""
+            }
+        ]
+    },
+    "Moneymon": {
+        "name": "Moneymon",
+        "url": "/wiki/Moneymon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/05/Moneymon_b.png/revision/latest?cb=20170407041038",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "eMoney",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Luckmon"
+            }
+        ],
+        "groups": [],
+        "description": "Moneymon appears to be a cross between aslot machineand anautomated teller machinewith itsdollar sign-shaped eyes and nose on the slots. Instead of arms, it has two slot machine levers to act as such. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Musclemon": {
+        "name": "Musclemon",
+        "url": "/wiki/Musclemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/26/Musclemon_b.png/revision/latest?cb=20170609035026",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Muscle Training",
+        "power": "920",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-10"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Musclemon is a Muscle Training Appmon.",
+        "attacks": [
+            {
+                "name": "Muscle Posing",
+                "description": ""
+            },
+            {
+                "name": "Mukimuki Sweat",
+                "description": ""
+            }
+        ]
+    },
+    "Musimon": {
+        "name": "Musimon",
+        "url": "/wiki/Musimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/53/Musimon_b.png/revision/latest?cb=20161003044906",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Music",
+        "power": "880 in Appli Drive1320 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Mediamon",
+                "fusees": [
+                    "Recomon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Nao Tamura(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Dancemon"
+            },
+            {
+                "language": "NA",
+                "name": "MCmon"
+            }
+        ],
+        "groups": [],
+        "description": "Musimon is a Music Appmon.",
+        "attacks": [
+            {
+                "name": "Music Hour",
+                "description": "The tattoos on its arms glow yellow to release 5 rainbow colored, energy music staffs at its enemies."
+            },
+            {
+                "name": "Happy Playlist",
+                "description": ""
+            }
+        ]
+    },
+    "Navimon": {
+        "name": "Navimon",
+        "url": "/wiki/Navimon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/08/Navimon_%28Appmon%29_b.png/revision/latest?cb=20161002191731",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Navi",
+        "power": "560",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "DoGatchmon",
+                "fusees": [
+                    "Gatchmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [
+            "(Ja:)Shun Horie(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Navimon is a Navi Appmon.",
+        "attacks": [
+            {
+                "name": "Navigation Arrow",
+                "description": "Tags targets with navigation pins and attacks with explosive homing arrows."
+            },
+            {
+                "name": "Shock Attack Marker",
+                "description": ""
+            }
+        ]
+    },
+    "Newsmon": {
+        "name": "Newsmon",
+        "url": "/wiki/Newsmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/09/Newsmon_b.png/revision/latest?cb=20161209161829",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "News",
+        "power": "390",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Gossipmon",
+                "fusees": [
+                    "Kosomon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-17"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Newsmon is a News Appmon.",
+        "attacks": [
+            {
+                "name": "G\u014dgai News",
+                "description": ""
+            },
+            {
+                "name": "Shocking News",
+                "description": ""
+            }
+        ]
+    },
+    "Offmon": {
+        "name": "Offmon",
+        "url": "/wiki/Offmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Offmon_b.png/revision/latest?cb=20161201003621",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Off Line",
+        "power": "950",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": false,
+                "name": "Logomon",
+                "fusees": [
+                    "Unspecified Appmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Naoto",
+            "Yujin Ozora"
+        ],
+        "voiceActors": [
+            "(Ja:)Yu Shimamura(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Offmon is an Off Line Appmon.",
+        "attacks": [
+            {
+                "name": "Switch Lazy",
+                "description": "Charges up a small energy orb over a long period of time before firing it off causing a massive explosion when it hits the target."
+            },
+            {
+                "name": "Tachikiru Link (\u30bf\u30c1\u30ad\u30eb\u30ea\u30f3\u30af, Tachikiru Link lit. \"Disconnecting Link\")",
+                "description": "Creates and launches a small energy ball that suddenly turns into a giant dome that can block off all communications within the area the dome covers."
+            }
+        ]
+    },
+    "Onmon": {
+        "name": "Onmon",
+        "url": "/wiki/Onmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e9/Onmon_b.png/revision/latest?cb=20161006034316",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Online",
+        "power": "950",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Logimon",
+                "fusees": [
+                    "Gatchmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Protagonist",
+            "Hajime Katsura"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Onmon is an Online Appmon.",
+        "attacks": [
+            {
+                "name": "Switch Spark",
+                "description": ""
+            },
+            {
+                "name": "Tsunageru Link (\u30c4\u30ca\u30b2\u30eb\u30ea\u30f3\u30af, Tsunageru Link lit. \"Connecting Link\")",
+                "description": ""
+            }
+        ]
+    },
+    "Onpamon": {
+        "name": "Onpamon",
+        "url": "/wiki/Onpamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Onpamon_b.png/revision/latest?cb=20170609043214",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Ultrasound",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Denpamon"
+            },
+            {
+                "language": "NA",
+                "name": "Jammingmon"
+            }
+        ],
+        "groups": [],
+        "description": "Onpamon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they're on the sides of it head and are used like arms.",
+        "attacks": []
+    },
+    "Oujamon": {
+        "name": "Oujamon",
+        "url": "/wiki/Oujamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a1/Oujamon_b.png/revision/latest?cb=20170217163830",
+        "grade": "Ultimate",
+        "type": "Game",
+        "appli": "Battle",
+        "power": "95000 in Appli Drive142500 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Dosukomon",
+                    "Coachmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Poseidomon",
+                "fusees": [
+                    "Beautymon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Ouji",
+            "Eri Karan"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Attcks",
+        "attacks": []
+    },
+    "Ouranosmon": {
+        "name": "Ouranosmon",
+        "url": "/wiki/Ouranosmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/15/Ouranosmon_b.png/revision/latest?cb=20170728040250",
+        "grade": "God",
+        "type": "God",
+        "appli": "Arousal",
+        "power": "290000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Entermon",
+                    "Fakemon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Ouranosmon is an Arousal Appmon.",
+        "attacks": [
+            {
+                "name": "Astral Eruption",
+                "description": "Gathers electricity into its arms to form two white clouds that launch a series of fireballs at the enemy."
+            },
+            {
+                "name": "Halo Halo",
+                "description": ""
+            }
+        ]
+    },
+    "Pekomon": {
+        "name": "Pekomon",
+        "url": "/wiki/Pekomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Pekomon_b.png/revision/latest?cb=20161209165331",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Compression",
+        "power": "80",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Pokomon (Appmon)"
+            }
+        ],
+        "groups": [],
+        "description": "Pekomon is a Compression Appmon.",
+        "attacks": [
+            {
+                "name": "Pekopeko Hammer (\u30da\u30b3\u30da\u30b3\u30cf\u30f3\u30de\u30fc, Pekopeko Hammer lit. \"Denting Hammer\")",
+                "description": ""
+            },
+            {
+                "name": "Peko Smash",
+                "description": ""
+            }
+        ]
+    },
+    "Perorimon": {
+        "name": "Perorimon",
+        "url": "/wiki/Perorimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/8/86/Perorimon_b.png/revision/latest?cb=20161003045405",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Gourmet",
+        "power": "690",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Dosukomon",
+                "fusees": [
+                    "Dokamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Yusuke Numata(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Perorimon is a Gourmet Appmon.",
+        "attacks": [
+            {
+                "name": "Tasting Bite",
+                "description": ""
+            },
+            {
+                "name": "Perorinlog",
+                "description": ""
+            }
+        ]
+    },
+    "Pipomon": {
+        "name": "Pipomon",
+        "url": "/wiki/Pipomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/fb/Pipomon_b.png/revision/latest?cb=20170609035535",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Warning",
+        "power": "950",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-02"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Gashamon"
+            }
+        ],
+        "groups": [],
+        "description": "Pipomon is a Warning Appmon.",
+        "attacks": [
+            {
+                "name": "Spy Droid",
+                "description": ""
+            },
+            {
+                "name": "Panic Sentry",
+                "description": ""
+            }
+        ]
+    },
+    "Pokomon": {
+        "name": "Pokomon",
+        "url": "/wiki/Pokomon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a4/Pokomon_%28Appmon%29_b.png/revision/latest?cb=20161209165209",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Decompression",
+        "power": "80",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Pekomon"
+            }
+        ],
+        "groups": [],
+        "description": "Pokomon is a Decompression Appmon.",
+        "attacks": [
+            {
+                "name": "Pokopoko Blow (\u30dd\u30b3\u30dd\u30b3\u30d6\u30ed\u30a6, Pokopoko Blow lit. \"Bashing Blow\")",
+                "description": ""
+            },
+            {
+                "name": "Poko Melter",
+                "description": ""
+            }
+        ]
+    },
+    "Poseidomon": {
+        "name": "Poseidomon",
+        "url": "/wiki/Poseidomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/5c/Poseidomon_b.png/revision/latest?cb=20170728035741",
+        "grade": "God",
+        "type": "God",
+        "appli": "Invincible",
+        "power": "270000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Oujamon",
+                    "Beautymon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Motoko Kumai(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Poseidomon is an Invincible Appmon.",
+        "attacks": [
+            {
+                "name": "Trident Fall",
+                "description": "Summons its trident and jabs it into any nearby piece of ground to send a giant waterspout upwards to drown the enemy. This attack can also break into the AR-Field."
+            },
+            {
+                "name": "Kaiteishouda (\u6d77\u5e1d\u638c\u6253, Kaiteishouda lit. \"Sea Emperor Palm Strike\")",
+                "description": "Launches two energy hands capable of containing an attack, and turning it on the enemy."
+            }
+        ]
+    },
+    "Protecmon": {
+        "name": "Protecmon",
+        "url": "/wiki/Protecmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/b2/Protecmon_b.png/revision/latest?cb=20161003043553",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Security",
+        "power": "750",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Raidramon",
+                "fusees": [
+                    "Hackmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Protecmon is a Security Appmon.",
+        "attacks": [
+            {
+                "name": "Flame Wall",
+                "description": ""
+            },
+            {
+                "name": "Almighty Guard",
+                "description": ""
+            }
+        ]
+    },
+    "Puzzlemon": {
+        "name": "Puzzlemon",
+        "url": "/wiki/Puzzlemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Puzzlemon_b.png/revision/latest?cb=20170407041943",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Puzzle",
+        "power": "350",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-02"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Messemon"
+            }
+        ],
+        "groups": [],
+        "description": "Puzzlemon is a Puzzle Appmon.",
+        "attacks": [
+            {
+                "name": "Popping Three",
+                "description": ""
+            },
+            {
+                "name": "Element Mix",
+                "description": ""
+            }
+        ]
+    },
+    "Racemon": {
+        "name": "Racemon",
+        "url": "/wiki/Racemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/16/Racemon_b.png/revision/latest?cb=20170407042209",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Racing",
+        "power": "550",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Yujin Ozora"
+        ],
+        "voiceActors": [
+            "(Ja:)Ayumu Murase(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Racemon is a racing Appmon.",
+        "attacks": [
+            {
+                "name": "Accel Drive",
+                "description": ""
+            },
+            {
+                "name": "Lazy Rabbit",
+                "description": ""
+            }
+        ]
+    },
+    "Raidramon": {
+        "name": "Raidramon",
+        "url": "/wiki/Raidramon_(Appmon)",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/16/Raidramon_%28Appmon%29_b.png/revision/latest?cb=20161209155805",
+        "grade": "Super",
+        "type": "System",
+        "appli": "Super Hacking",
+        "power": "12500",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Hackmon",
+                    "Protecmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Revivemon",
+                "fusees": [
+                    "Dezipmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Raidramon is a Super Hacking Appmon.",
+        "attacks": [
+            {
+                "name": "Barrage Jack",
+                "description": "Sinks its claws into the ground to send spikes in the shape of its fingers out of the ground in a line towards its enemy, ending with a ball of them bursting out under the enemy's feet."
+            },
+            {
+                "name": "Cracking Kleis (Cracking \u03ba\u03bb\u03b7\u0390\u03c2 lit. \"Cracking Key\")",
+                "description": ""
+            }
+        ]
+    },
+    "Rebootmon": {
+        "name": "Rebootmon",
+        "url": "/wiki/Rebootmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/30/Rebootmon_b.png/revision/latest?cb=20170728040013",
+        "grade": "God",
+        "type": "God",
+        "appli": "Reboot",
+        "power": "280000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Bootmon",
+                    "Shutmon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "ProtagonistandNaoto",
+            "Yujin OzoraandHajime Katsura"
+        ],
+        "voiceActors": [
+            "(Ja:)Takahiro Fujiwara(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Rebootmon is a Reboot Appmon.",
+        "attacks": [
+            {
+                "name": "Eclipse Eraser",
+                "description": "Its sword glows red to create an energy ring that surrounds and attacks the enemy."
+            },
+            {
+                "name": "Reficior (Lat",
+                "description": "\"Rebuild\")"
+            },
+            {
+                "name": "Horizontal Flare",
+                "description": ""
+            }
+        ]
+    },
+    "Recomon": {
+        "name": "Recomon",
+        "url": "/wiki/Recomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/53/Recomon_b.png/revision/latest?cb=20161004040923",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Recording",
+        "power": "290",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Mediamon",
+                "fusees": [
+                    "Musimon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Torajiro \"Astora\" Asuka",
+            "Mio"
+        ],
+        "voiceActors": [
+            "(Ja:)Shintaro Asanuma(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Recomon is a Recording Appmon.",
+        "attacks": [
+            {
+                "name": "Absorb Interview",
+                "description": ""
+            }
+        ]
+    },
+    "Resshamon": {
+        "name": "Resshamon",
+        "url": "/wiki/Resshamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/31/Resshamon_b.png/revision/latest?cb=20170107053323",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Transfer",
+        "power": "720",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Sh\u014dta Yamamoto(Appli Monsters)",
+            ""
+        ],
+        "cards": [
+            "BT2-16"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Resshamon is a Transfer Appmon.",
+        "attacks": [
+            {
+                "name": "Switching Rail",
+                "description": ""
+            },
+            {
+                "name": "Trail Slam",
+                "description": ""
+            }
+        ]
+    },
+    "Reviewmon": {
+        "name": "Reviewmon",
+        "url": "/wiki/Reviewmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/a/a0/Reviewmon_b.png/revision/latest?cb=20161002031445",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Review",
+        "power": "250",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Kosomon"
+            }
+        ],
+        "groups": [],
+        "description": "Reviewmon is a Review Appmon.",
+        "attacks": [
+            {
+                "name": "Post Review",
+                "description": ""
+            },
+            {
+                "name": "Saiaku no Hyouka (\u6700\u60aa\u306e\u8a55\u4fa1, Saiaku no Hyouka lit. \"Worst Rating\")",
+                "description": ""
+            }
+        ]
+    },
+    "Revivemon": {
+        "name": "Revivemon",
+        "url": "/wiki/Revivemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/7f/Revivemon_b.png/revision/latest?cb=20170217163629",
+        "grade": "Ultimate",
+        "type": "System",
+        "appli": "Restoration",
+        "power": "78000 in Appli Drive117000 in Appli Drive DUO",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Raidramon",
+                    "Dezipmon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Hadesmon",
+                "fusees": [
+                    "Biomon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Rei Katsura"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Revivemon is a Restoration Appmon.",
+        "attacks": [
+            {
+                "name": "Wunder Genesis (Deu: \"Wonder Genesis\")",
+                "description": "Fires a beam that can restore any Appmon to its normal state."
+            },
+            {
+                "name": "Saver Strahl (Deu: \"Saver Beam\")",
+                "description": "Surrounds itself with energy, then fires a beam from the second head."
+            }
+        ]
+    },
+    "Roamon": {
+        "name": "Roamon",
+        "url": "/wiki/Roamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c3/Roamon_b.png/revision/latest?cb=20170407034244",
+        "grade": "Super",
+        "type": "Tool",
+        "appli": "Voice Change",
+        "power": "4400",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Jammingmon",
+                    "Gengomon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Roamon is a Voice Change Appmon.",
+        "attacks": [
+            {
+                "name": "Liar Throat",
+                "description": ""
+            },
+            {
+                "name": "Twin Scream",
+                "description": "Fires twin supersonic waves from its beaks."
+            }
+        ]
+    },
+    "Rocketmon": {
+        "name": "Rocketmon",
+        "url": "/wiki/Rocketmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/6c/Rocketmon_b.png/revision/latest?cb=20161002043319",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Rocket",
+        "power": "1600",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Rocketmon is a Rocket Appmon.",
+        "attacks": [
+            {
+                "name": "Rocket Burst",
+                "description": ""
+            },
+            {
+                "name": "Overed Boost",
+                "description": ""
+            }
+        ]
+    },
+    "Ropuremon": {
+        "name": "Ropuremon",
+        "url": "/wiki/Ropuremon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/d6/Ropuremon_b.png/revision/latest?cb=20161005025633",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Ropure",
+        "power": "1500",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Takahiro Mizushima(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Ropuremon is a Ropure Appmon.",
+        "attacks": [
+            {
+                "name": "Holy Sword",
+                "description": ""
+            },
+            {
+                "name": "Brave Shield",
+                "description": ""
+            }
+        ]
+    },
+    "Sakusimon": {
+        "name": "Sakusimon",
+        "url": "/wiki/Sakusimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/61/Sakusimon_b.png/revision/latest?cb=20161209171148",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "Simulation",
+        "power": "14000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": false,
+                "name": "Warudamon",
+                "fusees": [
+                    "Mienumon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Sakusimon is a Simulation Appmon.",
+        "attacks": [
+            {
+                "name": "Garyousen (\u81e5\u9f8d\u6247, Garyousen lit. \"Crouching Dragon Fan\")",
+                "description": ""
+            },
+            {
+                "name": "Enbu no Jin (\u708e\u821e\u306e\u9663, Enbu no Jin lit. \"Flame Dance Formation\")",
+                "description": ""
+            }
+        ]
+    },
+    "Santamon": {
+        "name": "Santamon",
+        "url": "/wiki/Santamon_(Appmon)",
+        "image": "",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Christmas",
+        "power": "12250",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Sateramon": {
+        "name": "Sateramon",
+        "url": "/wiki/Sateramon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/31/Sateramon_b.png/revision/latest?cb=20170407033213",
+        "grade": "Ultimate",
+        "type": "Navi",
+        "appli": "GPS",
+        "power": "100000",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Kousuke Okano(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Sateramonis a GPS Appmon.",
+        "attacks": [
+            {
+                "name": "Cosmic Raider",
+                "description": ""
+            },
+            {
+                "name": "Rainbow Assault",
+                "description": ""
+            }
+        ]
+    },
+    "Savemon": {
+        "name": "Savemon",
+        "url": "/wiki/Savemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/38/Savemon_b.png/revision/latest?cb=20170407035736",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Backup",
+        "power": "1100",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT2-06"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Copipemon"
+            }
+        ],
+        "groups": [],
+        "description": "Savemon is a Backup Appmon.",
+        "attacks": [
+            {
+                "name": "Saving Bubble",
+                "description": ""
+            },
+            {
+                "name": "Split Memory",
+                "description": ""
+            }
+        ]
+    },
+    "Scorpmon": {
+        "name": "Scorpmon",
+        "url": "/wiki/Scorpmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/ca/Scorpmon_b.png/revision/latest?cb=20161005032137",
+        "grade": "Super",
+        "type": "Tool",
+        "appli": "Surveillance",
+        "power": "13000",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Cameramon",
+                    "Shotmon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Kousuke Okano(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Scorpmon is a Surveillance Appmon.",
+        "attacks": [
+            {
+                "name": "Death Watch",
+                "description": ""
+            },
+            {
+                "name": "Deadly Snipe",
+                "description": "Shoots its target from far away."
+            }
+        ]
+    },
+    "Setmon": {
+        "name": "Setmon",
+        "url": "/wiki/Setmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/9/92/Setmon_b.png/revision/latest?cb=20170217164419",
+        "grade": "Standard",
+        "type": "System",
+        "appli": "Settings",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Tellermon"
+            }
+        ],
+        "groups": [],
+        "description": "Setmon appears as a small figure with a mask with three eyes and a shawl. Like most Appmon, it has two cables to allowApplinkthough they're on the ends of its braids and are used like arms.",
+        "attacks": []
+    },
+    "Shotmon": {
+        "name": "Shotmon",
+        "url": "/wiki/Shotmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/3d/Shotmon_b.png/revision/latest?cb=20161004050557",
+        "grade": "Standard",
+        "type": "Game",
+        "appli": "Shooting",
+        "power": "1300",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Scorpmon",
+                "fusees": [
+                    "Cameramon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Yoshihisa Kawahara(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Shotmon is a Shooting Appmon.",
+        "attacks": [
+            {
+                "name": "Dead Shot",
+                "description": ""
+            },
+            {
+                "name": "Pressure Revolve",
+                "description": ""
+            }
+        ]
+    },
+    "Shutmon": {
+        "name": "Shutmon",
+        "url": "/wiki/Shutmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/24/Shutmon_b.png/revision/latest?cb=20170407032654",
+        "grade": "Ultimate",
+        "type": "Tool",
+        "appli": "Forced Termination",
+        "power": "5700085500 in Appli Drive DUO",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Unspecified Appmon",
+                    "Logomon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Rebootmon",
+                "fusees": [
+                    "Bootmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Yujin Ozora",
+            "Naoto"
+        ],
+        "voiceActors": [
+            "(Ja:)Takahiro Fujiwara(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Shutmon is a Forced Termination Appmon. It is an Appmon that digivolved from Logomon.",
+        "attacks": [
+            {
+                "name": "Luna Impulse (Esp: \"Moon Impulse\")",
+                "description": "Shreds the opponent to bits with its scissor blades."
+            },
+            {
+                "name": "Scissors Black",
+                "description": ""
+            }
+        ]
+    },
+    "Sleepmon": {
+        "name": "Sleepmon",
+        "url": "/wiki/Sleepmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/59/Sleepmon_b.png/revision/latest?cb=20161209171101",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Sleep",
+        "power": "270",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Inori Minase(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Sleepmon is a Sleep Appmon.",
+        "attacks": [
+            {
+                "name": "Su~per Sleep~er",
+                "description": ""
+            },
+            {
+                "name": "Raging Eye",
+                "description": ""
+            }
+        ]
+    },
+    "Sociamon": {
+        "name": "Sociamon",
+        "url": "/wiki/Sociamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/5e/Sociamon_b.png/revision/latest?cb=20170217162843",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "SNS",
+        "power": "6800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Charismon",
+                "fusees": [
+                    "Gossipmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-24"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Sociamon is an SNS Appmon.",
+        "attacks": [
+            {
+                "name": "Messastrom",
+                "description": ""
+            },
+            {
+                "name": "Heavy Gift",
+                "description": ""
+            }
+        ]
+    },
+    "Spamon": {
+        "name": "Spamon",
+        "url": "/wiki/Spamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/ec/Spamon_b.png/revision/latest?cb=20170609043433",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Spa",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Yadomon"
+            }
+        ],
+        "groups": [],
+        "description": "Spamon appears as a hermit crab with anonsenas its shell. Like most Appmon, it has two cables to allowApplink, though they're on the back of its shell.",
+        "attacks": []
+    },
+    "Speciamon": {
+        "name": "Speciamon",
+        "url": "/wiki/Speciamon",
+        "image": "",
+        "grade": "Ultimate",
+        "type": "Navi",
+        "appli": "Secret",
+        "power": "100000",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Sukasimon": {
+        "name": "Sukasimon",
+        "url": "/wiki/Sukasimon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Sukasimon_b.png/revision/latest?cb=20161005031706",
+        "grade": "Super",
+        "type": "Social",
+        "appli": "Failed",
+        "power": "4000",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": false,
+                "name": "Failed App Fusion",
+                "fusees": []
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai",
+            "Eri Karan"
+        ],
+        "voiceActors": [
+            "(Ja:)Shin Matsushige(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Sukasimon is a Failed Appmon.",
+        "attacks": [
+            {
+                "name": "Shippai-shichatta (\u5931\u6557\u3057\u3061\u3083\u3063\u305f, Shippai-shichatta lit. \"Failed\")",
+                "description": "Says \"failed\"."
+            },
+            {
+                "name": "Suka Knuckle",
+                "description": ""
+            }
+        ]
+    },
+    "Supermon": {
+        "name": "Supermon",
+        "url": "/wiki/Supermon",
+        "image": "",
+        "grade": "Super",
+        "type": "System",
+        "appli": "Super",
+        "power": "10000",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Supplemon": {
+        "name": "Supplemon",
+        "url": "/wiki/Supplemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/7/78/Supplemon_b.png/revision/latest?cb=20161209171036",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Supplement",
+        "power": "310",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Dopemon"
+            }
+        ],
+        "groups": [],
+        "description": "Supplemon is a Supplement Appmon.",
+        "attacks": [
+            {
+                "name": "Vital Supplements",
+                "description": ""
+            },
+            {
+                "name": "Minagiru Energy",
+                "description": ""
+            }
+        ]
+    },
+    "Swipemon": {
+        "name": "Swipemon",
+        "url": "/wiki/Swipemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/24/Swipemon_%28Game%29_duam3ds.png/revision/latest?cb=20211023073559",
+        "grade": "Standard",
+        "type": "SocialNaviToolSystemGameEntertainmentLife",
+        "appli": "Swipe",
+        "power": "8",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Swipemon appears to have a round body with a face on it. It has four pointed legs with no feet. It has a white design above its forehead. Swipemon has two large spikes on both sides of its head. Its color depends on its type.",
+        "attacks": []
+    },
+    "Tapmon": {
+        "name": "Tapmon",
+        "url": "/wiki/Tapmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/b/bc/Tapmon_%28Game%29_duam3ds.png/revision/latest?cb=20211023072245",
+        "grade": "Standard",
+        "type": "SocialNaviToolSystemGameEntertainmentLife",
+        "appli": "Tap",
+        "power": "8",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Tapmon appear to have small round bodies with four legs with points instead of feat. They have a white design on their foreheads, and a spike on the top of their heads. Tapmon vary in color depending on their type.",
+        "attacks": []
+    },
+    "Tarotmon": {
+        "name": "Tarotmon",
+        "url": "/wiki/Tarotmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/5/55/Tarotmon_b.png/revision/latest?cb=20161201004149",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Super Fortunetelling",
+        "power": "11500",
+        "debut": [],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Gashamon",
+                    "Tellermon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Rei Katsura",
+            "Wakaba"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-39"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Tarotmon is a Super Fortunetelling Appmon.",
+        "attacks": [
+            {
+                "name": "Lament Fate",
+                "description": "Launches a beam from one of its cards."
+            },
+            {
+                "name": "Arcana Shield",
+                "description": ""
+            }
+        ]
+    },
+    "Tellermon": {
+        "name": "Tellermon",
+        "url": "/wiki/Tellermon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/Tellermon_b.png/revision/latest?cb=20161209162026",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Fortune Telling",
+        "power": "400",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Tarotmon",
+                "fusees": [
+                    "Gashamon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai",
+            "Protagonist (Appli Monsters)",
+            "Wakaba"
+        ],
+        "voiceActors": [
+            "(Ja:)Y\u016bko Maruyama(Appli Monsters)",
+            ""
+        ],
+        "cards": [
+            "BT1-20"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Setmon (Appmon)"
+            }
+        ],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Tellermon is a Fortune Telling Appmon.",
+        "attacks": [
+            {
+                "name": "Fortuneteller",
+                "description": ""
+            },
+            {
+                "name": "Sphere Impact",
+                "description": ""
+            }
+        ]
+    },
+    "Timemon": {
+        "name": "Timemon",
+        "url": "/wiki/Timemon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/6/6f/Timemon_b.png/revision/latest?cb=20161209170417",
+        "grade": "Super",
+        "type": "Tool",
+        "appli": "Timeslip",
+        "power": "10000",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Globemon",
+                "fusees": [
+                    "DoGatchmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Haru Shinkai"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Timemon is a Timeslip Appmon.",
+        "attacks": [
+            {
+                "name": "Chronoslide",
+                "description": ""
+            },
+            {
+                "name": "Clock Fist",
+                "description": ""
+            },
+            {
+                "name": "Clock Shield",
+                "description": ""
+            }
+        ]
+    },
+    "Trickmon": {
+        "name": "Trickmon",
+        "url": "/wiki/Trickmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/4/40/Trickmon_b.png/revision/latest?cb=20170407040539",
+        "grade": "Standard",
+        "type": "Entertainment",
+        "appli": "Trick",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Trickmon appears to be a top hat with arms wearing a mask and bow tie, elements tied to thestage magician. Like most Appmon, it has two cables to allowApplink, though they're stored in the hole on top of its head.",
+        "attacks": []
+    },
+    "Tripmon": {
+        "name": "Tripmon",
+        "url": "/wiki/Tripmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/0/02/Tripmon_b.png/revision/latest?cb=20161201005615",
+        "grade": "Super",
+        "type": "Navi",
+        "appli": "Trip",
+        "power": "6200",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Yadomon",
+                    "Jetmon"
+                ]
+            }
+        ],
+        "nextForms": [],
+        "buddies": [
+            "Makoto"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Warpmon"
+            }
+        ],
+        "groups": [],
+        "description": "Tripmon is a Trip Appmon.",
+        "attacks": [
+            {
+                "name": "Trip Gate",
+                "description": ""
+            },
+            {
+                "name": "Wanderer Fang",
+                "description": ""
+            }
+        ]
+    },
+    "Tubumon": {
+        "name": "Tubumon",
+        "url": "/wiki/Tubumon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c5/Tubumon_b.png/revision/latest?cb=20161209162220",
+        "grade": "Standard",
+        "type": "Social",
+        "appli": "Tweet",
+        "power": "480",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Haru Shinkai",
+            "Yujin Ozora"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-31"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Gengomon"
+            }
+        ],
+        "groups": [],
+        "description": "Tubumon is a Tweet Appmon.",
+        "attacks": [
+            {
+                "name": "Twi-Bomb",
+                "description": ""
+            },
+            {
+                "name": "Iine Rush (\u3044\u3044\u306d \u30e9\u30c3\u30b7\u30e5, \u012ane Rasshu, lit. \"Nice Rush\")",
+                "description": "Charges towards the enemy and attacks with a series of multiple \"thumbs up\" punches whilst constantly shouting \"Iine!\" (\u3044\u3044\u306d, lit. \"Nice!\")."
+            }
+        ]
+    },
+    "Tutomon": {
+        "name": "Tutomon",
+        "url": "/wiki/Tutomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/d9/Tutomon_b.png/revision/latest?cb=20161201003912",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Commentary",
+        "power": "200",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Mio"
+        ],
+        "voiceActors": [],
+        "cards": [
+            "BT1-19"
+        ],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Tutomon is a Commentary Appmon.",
+        "attacks": [
+            {
+                "name": "Finger Pointer",
+                "description": ""
+            },
+            {
+                "name": "Ty\u016btorialize",
+                "description": ""
+            }
+        ]
+    },
+    "Uratekumon": {
+        "name": "Uratekumon",
+        "url": "/wiki/Uratekumon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e3/Uratekumon_b.png/revision/latest?cb=20170217161844",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "Hints and Tips",
+        "power": "9000",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-38"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Bramon"
+            }
+        ],
+        "groups": [],
+        "description": "Uratekumon is a Hints and Tips Appmon.",
+        "attacks": [
+            {
+                "name": "Ue-Shita-Ue-Shita-Migi-Migi-Hidari-Hidari-X-Y (\u4e0a\u4e0b\u4e0a\u4e0b\u53f3\u53f3\u5de6\u5de6XY, Ue-Shita-Ue-Shita-Migi-Migi-Hidari-Hidari-X-Y lit. \"Up, Down, Up, Down, Right, Right, Left, Left, X, Y\")",
+                "description": ""
+            },
+            {
+                "name": "Kamiwaza Combo (\u30ab\u30df\u30ef\u30b6\u30b3\u30f3\u30dc, Kamiwaza Konbo, lit. \"Superhuman Combo\")",
+                "description": ""
+            }
+        ]
+    },
+    "Vegasmon": {
+        "name": "Vegasmon",
+        "url": "/wiki/Vegasmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Vegasmon_b.png/revision/latest?cb=20170407033712",
+        "grade": "Super",
+        "type": "Entertainment",
+        "appli": "Roulette",
+        "power": "9800",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Consulmon"
+            }
+        ],
+        "groups": [],
+        "description": "Vegasmon is a Roulette Appmon.",
+        "attacks": [
+            {
+                "name": "Queen Wheel",
+                "description": "Throws flaming coins at the opponent."
+            },
+            {
+                "name": "Big Game",
+                "description": ""
+            }
+        ]
+    },
+    "Virusmon": {
+        "name": "Virusmon",
+        "url": "/wiki/Virusmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Virusmon_b.png/revision/latest?cb=20161004035835",
+        "grade": "Standard",
+        "type": "Life",
+        "appli": "Virus",
+        "power": "640",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Docmon",
+                "fusees": [
+                    "Dopemon"
+                ]
+            }
+        ],
+        "buddies": [],
+        "voiceActors": [
+            "(Ja:)Yutaka Aoyama(Appli Monsters),Kenta Tanaka,Shin Matsushige(Appli Monsters, Followers)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Virusmon is a Virus Appmon.",
+        "attacks": [
+            {
+                "name": "Purple Gust",
+                "description": ""
+            },
+            {
+                "name": "Tentacle Bind",
+                "description": ""
+            }
+        ]
+    },
+    "V-Jumpmon": {
+        "name": "V-Jumpmon",
+        "url": "/wiki/V-Jumpmon",
+        "image": "",
+        "grade": "Super",
+        "type": "Game",
+        "appli": "V Jump",
+        "power": "5500",
+        "debut": [
+            "None"
+        ],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "No design available.",
+        "attacks": []
+    },
+    "Warpmon": {
+        "name": "Warpmon",
+        "url": "/wiki/Warpmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/c/c7/Warpmon_b.png/revision/latest?cb=20170609044314",
+        "grade": "Super",
+        "type": "System",
+        "appli": "Transmission",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Tripmon"
+            }
+        ],
+        "groups": [],
+        "description": "Warpmon appears to be a mad scientist with two different colored eyes. It carries a largeteleporteron its back. Like most Appmon, it has two cables on its back to allowApplink.",
+        "attacks": []
+    },
+    "Warudamon": {
+        "name": "Warudamon",
+        "url": "/wiki/Warudamon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Warudamon_b.png/revision/latest?cb=20170407033033",
+        "grade": "Ultimate",
+        "type": "System",
+        "appli": "Strategy",
+        "power": "88000",
+        "debut": [
+            "Digimon Universe: Appli Monsters (3DS)"
+        ],
+        "priorForms": [
+            {
+                "fusion": true,
+                "name": "",
+                "fusees": [
+                    "Mienumon",
+                    "Sakusimon"
+                ]
+            }
+        ],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Deusmon",
+                "fusees": [
+                    "Cometmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Leviathan's App Driver",
+            "Knight Unryuji"
+        ],
+        "voiceActors": [
+            "(Ja:)Shiori Izawa(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Warudamon is a Strategy Appmon.",
+        "attacks": [
+            {
+                "name": "Satan's Mund (Deu: \"Satan's Mouth\")",
+                "description": "Wraps itself in its own cape to turn into a giant, pink, squid-like monster that devours the enemy."
+            },
+            {
+                "name": "D\u00e4mon Arm (Deu",
+                "description": "\"Demon Arm\")"
+            }
+        ]
+    },
+    "Watchmon": {
+        "name": "Watchmon",
+        "url": "/wiki/Watchmon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/3/3f/Watchmon_b.png/revision/latest?cb=20161004045304",
+        "grade": "Standard",
+        "type": "Tool",
+        "appli": "Watch",
+        "power": "160",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [
+            "Torajirou Asuka"
+        ],
+        "voiceActors": [
+            "(Ja:)Kenta Tanaka(Appli Monsters)",
+            ""
+        ],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Compassmon"
+            }
+        ],
+        "groups": [],
+        "description": "Watchmon is a Watch Appmon.",
+        "attacks": [
+            {
+                "name": "Alarm Hold",
+                "description": "Wraps his band around the enemy to freeze them in time."
+            },
+            {
+                "name": "Minute Spear",
+                "description": ""
+            }
+        ]
+    },
+    "Weatherdoramon": {
+        "name": "Weatherdoramon",
+        "url": "/wiki/Weatherdoramon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/f/f3/Weatherdoramon_b.png/revision/latest?cb=20170217161359",
+        "grade": "Super",
+        "type": "Navi",
+        "appli": "Weather",
+        "power": "15000",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [
+            "BT1-37"
+        ],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Dreammon"
+            }
+        ],
+        "groups": [
+            {
+                "language": "NA",
+                "name": "7code Appmon"
+            }
+        ],
+        "description": "Weatherdoramon is a Weather Appmon.",
+        "attacks": [
+            {
+                "name": "Divine Breath",
+                "description": ""
+            },
+            {
+                "name": "Panic Thunder",
+                "description": ""
+            }
+        ]
+    },
+    "Weathermon": {
+        "name": "Weathermon",
+        "url": "/wiki/Weathermon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/d/df/Weathermon_b.png/revision/latest?cb=20161002193549",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Weather",
+        "power": "1050",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "Weathermon is a Weather Appmon.",
+        "attacks": [
+            {
+                "name": "Puchipuchi Weather",
+                "description": ""
+            },
+            {
+                "name": "Guzuguzu Weather",
+                "description": ""
+            }
+        ]
+    },
+    "Yadomon": {
+        "name": "Yadomon",
+        "url": "/wiki/Yadomon",
+        "image": "https://static.wikia.nocookie.net/digimon/images/e/e6/Yadomon_b.png/revision/latest?cb=20170407040002",
+        "grade": "Standard",
+        "type": "Navi",
+        "appli": "Hotel",
+        "power": "",
+        "debut": [
+            "Digimon Universe: Appli Monsters: Cyber Arena"
+        ],
+        "priorForms": [],
+        "nextForms": [
+            {
+                "fusion": true,
+                "name": "Tripmon",
+                "fusees": [
+                    "Jetmon"
+                ]
+            }
+        ],
+        "buddies": [
+            "Makoto"
+        ],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [
+            {
+                "language": "NA",
+                "name": "Spamon"
+            }
+        ],
+        "groups": [],
+        "description": "Yadomon appears as a hermit crab wearing abellhop's uniform with a hotel as its shell. Like most Appmon, it has two cables to allowApplink, though they're on the back of its shell.",
+        "attacks": []
+    },
+    "Unspecified Appmon": {
+        "name": "Unspecified Appmon",
+        "url": "",
+        "image": "",
+        "grade": "Unknown",
+        "type": "",
+        "appli": "",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "",
+        "attacks": []
+    },
+    "Failed App Fusion": {
+        "name": "Failed App Fusion",
+        "url": "",
+        "image": "",
+        "grade": "Unknown",
+        "type": "",
+        "appli": "",
+        "power": "",
+        "debut": [],
+        "priorForms": [],
+        "nextForms": [],
+        "buddies": [],
+        "voiceActors": [],
+        "cards": [],
+        "otherNames": [],
+        "variations": [],
+        "groups": [],
+        "description": "",
+        "attacks": []
+    }
+}

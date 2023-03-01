@@ -1,0 +1,354 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 600px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-10 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select digimon(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  value : []
+              };
+
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      showDigi(true,arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+                   
+                  
+                    function addValues() {
+                        // clear the current value options and add the selected attribute values
+                        // tom-select handles duplicates
+                        let selectedProperty = 'id';
+                        valueControl.clear();
+                        valueControl.clearOptions();
+                        filter['value'] = []
+                            for (let each in allNodes) {
+                                valueControl.addOption({
+                                    id:allNodes[each][selectedProperty],
+                                    title:allNodes[each][selectedProperty]
+                                })
+                            }
+                    }
+
+
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      valueControl.clear();
+
+                      filter = {
+                          value : []
+                      }
+
+                      filterHighlight({nodes: []})
+
+                  }
+
+
+                  function showDigi(toFit,node){
+                    if(toFit)
+                    network.focus(node)
+                            for(key in allEdges){
+                                if(allEdges[key]['to'] === node)
+                                {
+                                    filter['value'].push(allEdges[key]['from'])
+                                    
+                                }
+                                if(allEdges[key]['from'] === node)
+                                {
+                                    filter['value'].push(allEdges[key]['to'])
+                                    
+                                }
+                            }
+                            filter['value'].push(node)
+                            if(toFit)
+                            network.fit({nodes : [node],animation : true})
+                            console.log(filter['value']);
+                            filterHighlight({nodes : filter['value']});
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "white", "font": {"color": "white"}, "id": "Addmon", "image": "https://static.wikia.nocookie.net/digimon/images/7/74/Addmon_b.png/revision/latest?cb=20161002030905", "label": "Addmon", "shape": "circularImage", "title": "Addmon is an Address Book Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Aidmon", "image": "https://static.wikia.nocookie.net/digimon/images/b/bc/Aidmon_b.png/revision/latest?cb=20170217160747", "label": "Aidmon", "shape": "circularImage", "title": "Aidmon is a Lifesaving Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Auctiomon", "image": "https://static.wikia.nocookie.net/digimon/images/3/3f/Auctiomon_b.png/revision/latest?cb=20170217163305", "label": "Auctiomon", "shape": "circularImage", "title": "Auctiomon appears as an auctioneer with a golden gavel for a right hand. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Batterimon", "image": "https://static.wikia.nocookie.net/digimon/images/b/b3/Batterimon_b.png/revision/latest?cb=20170217160936", "label": "Batterimon", "shape": "circularImage", "title": "Batterimon is a Battery Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Beautymon", "image": "https://static.wikia.nocookie.net/digimon/images/7/77/Beautymon_b.png/revision/latest?cb=20170609033621", "label": "Beautymon", "shape": "circularImage", "title": "Beautymon is a Beauty Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Biomon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a6/Biomon_b.png/revision/latest?cb=20170609033345", "label": "Biomon", "shape": "circularImage", "title": "Biomon is a Life Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Bookmon", "image": "https://static.wikia.nocookie.net/digimon/images/4/42/Bookmon_b.png/revision/latest?cb=20170609042027", "label": "Bookmon", "shape": "circularImage", "title": "Bookmon\u0027s design is an open story book with eyes and a bookmark. It has a foil band across the cover resembling a pair of glasses. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the sides and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "Bootmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/3c/Bootmon_b.png/revision/latest?cb=20170407032351", "label": "Bootmon", "shape": "circularImage", "title": "Bootmon is a Super Boot Appmon. It is an Appmon that digivolved from Logimon."}, {"color": "white", "font": {"color": "white"}, "id": "Bramon", "image": "https://static.wikia.nocookie.net/digimon/images/9/9a/Bramon_b.png/revision/latest?cb=20170609040517", "label": "Bramon", "shape": "circularImage", "title": "Bramon is a Brain Training Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Calendamon", "image": "https://static.wikia.nocookie.net/digimon/images/3/3e/Calendamon_b.png/revision/latest?cb=20161209165949", "label": "Calendamon", "shape": "circularImage", "title": "Calendamon is a Calendar Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Calcumon", "image": "https://static.wikia.nocookie.net/digimon/images/b/bf/Calcumon_b.png/revision/latest?cb=20170217162051", "label": "Calcumon", "shape": "circularImage", "title": "Calcumon is a Calculator Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Callmon", "image": "https://static.wikia.nocookie.net/digimon/images/4/4a/Callmon_b.png/revision/latest?cb=20161002013930", "label": "Callmon", "shape": "circularImage", "title": "Callmon is a Phone Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Cameramon", "image": "https://static.wikia.nocookie.net/digimon/images/2/22/Cameramon_b.png/revision/latest?cb=20161004040303", "label": "Cameramon", "shape": "circularImage", "title": "Cameramon is a Camera Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Cardmon", "image": "https://static.wikia.nocookie.net/digimon/images/d/d8/Cardmon_%28Appmon%29_b.png/revision/latest?cb=20161005024630", "label": "Cardmon", "shape": "circularImage", "title": "Cardmon is a Card Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Coachmon", "image": "https://static.wikia.nocookie.net/digimon/images/9/91/Coachmon_b.png/revision/latest?cb=20161209170107", "label": "Coachmon", "shape": "circularImage", "title": "Coachmon is a Training Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Consulmon", "image": "https://static.wikia.nocookie.net/digimon/images/8/8e/Consulmon_b.png/revision/latest?cb=20170609042434", "label": "Consulmon", "shape": "circularImage", "title": "Consulmon is a Saving Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Cookmon", "image": "https://static.wikia.nocookie.net/digimon/images/b/bd/Cookmon_b.png/revision/latest?cb=20161209170214", "label": "Cookmon", "shape": "circularImage", "title": "Cookmon is a Cooking Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Coordemon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e6/Coordemon_b.png/revision/latest?cb=20170609040109", "label": "Coordemon", "shape": "circularImage", "title": "Coordemon is a Coordinate Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Cometmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/34/Cometmon_b.png/revision/latest?cb=20170407032231", "label": "Cometmon", "shape": "circularImage", "title": "Cometmon is an Astrology Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Compassmon", "image": "https://static.wikia.nocookie.net/digimon/images/b/bb/Compassmon_b.png/revision/latest?cb=20161209170455", "label": "Compassmon", "shape": "circularImage", "title": "Compassmon is a Compass Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Copipemon", "image": "https://static.wikia.nocookie.net/digimon/images/1/1c/Copipemon_b.png/revision/latest?cb=20161209165430", "label": "Copipemon", "shape": "circularImage", "title": "Copipemon is a Copy/Paste Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Charismon", "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/Charismon_b.png/revision/latest?cb=20170609033016", "label": "Charismon", "shape": "circularImage", "title": "Charismon is a Mind Control Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Craftmon", "image": "https://static.wikia.nocookie.net/digimon/images/0/05/Craftmon_b.png/revision/latest?cb=20170407034422", "label": "Craftmon", "shape": "circularImage", "title": "Craftmon is a Design Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Damedamon", "image": "https://static.wikia.nocookie.net/digimon/images/8/8a/Damedamon_b.png/revision/latest?cb=20170609041544", "label": "Damedamon", "shape": "circularImage", "title": "Damedamon is a Damedame Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dancemon", "image": "https://static.wikia.nocookie.net/digimon/images/6/61/Dancemon_b.png/revision/latest?cb=20161209171125", "label": "Dancemon", "shape": "circularImage", "title": "Dancemon is a Rhythm Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dantemon", "image": "https://static.wikia.nocookie.net/digimon/images/d/da/Dantemon_b.png/revision/latest?cb=20170318023516", "label": "Dantemon", "shape": "circularImage", "title": "Dantemon resembles a humanoid robot. It has glowing colored spheres on its shoulders, hands, knees.  chest and head and green hair."}, {"color": "white", "font": {"color": "white"}, "id": "Denpamon", "image": "https://static.wikia.nocookie.net/digimon/images/7/78/Denpamon_b.png/revision/latest?cb=20170407042455", "label": "Denpamon", "shape": "circularImage", "title": "Denpamon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the sides of it head and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "Deusmon", "image": "https://static.wikia.nocookie.net/digimon/images/5/5c/Deusmon_b.png/revision/latest?cb=20170728033801", "label": "Deusmon", "shape": "circularImage", "title": "Deusmon is an Omnipotence Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dezipmon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f6/Dezipmon_b.png/revision/latest?cb=20161209171012", "label": "Dezipmon", "shape": "circularImage", "title": "Dezipmon is a Zip/Unzip Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Diarimon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e3/Diarimon_b.png/revision/latest?cb=20170609042702", "label": "Diarimon", "shape": "circularImage", "title": "Diarimon appears as andiarywith an eye looking out of the keyhole of its lock. Its arms arefountain pens, and it wears a key around its neck. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Dicemon", "image": "https://static.wikia.nocookie.net/digimon/images/c/cb/Dicemon_b.png/revision/latest?cb=20170217165003", "label": "Dicemon", "shape": "circularImage", "title": "Dicemon is a die with a single eye on the onepipface. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Docmon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a9/Docmon_b.png/revision/latest?cb=20170609040305", "label": "Docmon", "shape": "circularImage", "title": "Docmon is a Doctor Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "DoGatchmon", "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/DoGatchmon_b.png/revision/latest?cb=20161002023128", "label": "DoGatchmon", "shape": "circularImage", "title": "DoGatchmon is a Super Search Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dokamon", "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Dokamon_b.png/revision/latest?cb=20161004050100", "label": "Dokamon", "shape": "circularImage", "title": "Dokamon is an Action Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dopemon", "image": "https://static.wikia.nocookie.net/digimon/images/d/d4/Dopemon_duam3ds.png/revision/latest?cb=20190107014425", "label": "Dopemon", "shape": "circularImage", "title": "Dopemon is an Enhancement Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dosukomon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c0/Dosukomon_b.png/revision/latest?cb=20161005032852", "label": "Dosukomon", "shape": "circularImage", "title": "Dosukomon is a Fighting Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dogamon", "image": "https://static.wikia.nocookie.net/digimon/images/b/b7/Dogamon_b.png/revision/latest?cb=20161004033339", "label": "Dogamon", "shape": "circularImage", "title": "Dogamon is a Video Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Drawmon", "image": "https://static.wikia.nocookie.net/digimon/images/8/81/Drawmon_b.png/revision/latest?cb=20161209161509", "label": "Drawmon", "shape": "circularImage", "title": "Drawmon is a Paint Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dreammon", "image": "https://static.wikia.nocookie.net/digimon/images/f/ff/Dreammon_b.png/revision/latest?cb=20170217164224", "label": "Dreammon", "shape": "circularImage", "title": "Dreammon is a Dream Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Dressmon", "image": "https://static.wikia.nocookie.net/digimon/images/a/af/Dressmon_b.png/revision/latest?cb=20161004034441", "label": "Dressmon", "shape": "circularImage", "title": "Dressmon is a Fashion Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Ecomon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Ecomon_b.png/revision/latest?cb=20170407040241", "label": "Ecomon", "shape": "circularImage", "title": "Ecomon is essentially a humanoidbatterywith a plant growing out of its head. However, it is heavily covered in knight-like armor. It also occupies bulky arms, a spiked toe on each foot, and a v-neck design on the torso, referencing volts. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Effecmon", "image": "https://static.wikia.nocookie.net/digimon/images/2/2a/Effecmon_b.png/revision/latest?cb=20170217161728", "label": "Effecmon", "shape": "circularImage", "title": "Effecmon is an Effect Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Entermon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f7/Entermon_b.png/revision/latest?cb=20170217164007", "label": "Entermon", "shape": "circularImage", "title": "Entermon is an Entertainment Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Fakemon", "image": "https://static.wikia.nocookie.net/digimon/images/b/b2/Fakemon_b.png/revision/latest?cb=20170609033817", "label": "Fakemon", "shape": "circularImage", "title": "Fakemon is a Camouflage Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Flickmon", "image": "https://static.wikia.nocookie.net/digimon/images/5/5f/Flickmon_%28Game%29_duam3ds.png/revision/latest?cb=20211023074507", "label": "Flickmon", "shape": "circularImage", "title": "Flickmon appears to have a round body with a face. It has four pointed feet with no legs. It has a design depicting four small squares surrounding a large square on its forehead. It has two floppy ears on either side of its head. Its color depends on its type."}, {"color": "white", "font": {"color": "white"}, "id": "Gaiamon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c5/Gaiamon_%28Appmon%29_b.png/revision/latest?cb=20170728034244", "label": "Gaiamon", "shape": "circularImage", "title": "Gaiamon is a Creation Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gashamon", "image": "https://static.wikia.nocookie.net/digimon/images/2/23/Gashamon_b.png/revision/latest?cb=20161004035000", "label": "Gashamon", "shape": "circularImage", "title": "Gashamon is a Gasha Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gatchmon", "image": "https://static.wikia.nocookie.net/digimon/images/4/46/Gatchmon_b.png/revision/latest?cb=20161002012433", "label": "Gatchmon", "shape": "circularImage", "title": "Gatchmon is a Search Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gengomon", "image": "https://static.wikia.nocookie.net/digimon/images/6/63/Gengomon_b.png/revision/latest?cb=20170217164808", "label": "Gengomon", "shape": "circularImage", "title": "Gengomon is a Translation Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Globemon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f5/Globemon_b.png/revision/latest?cb=20170217161048", "label": "Globemon", "shape": "circularImage", "title": "Globemon is a Global Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gomimon", "image": "https://static.wikia.nocookie.net/digimon/images/a/ac/Gomimon_b.png/revision/latest?cb=20161115042239", "label": "Gomimon", "shape": "circularImage", "title": "Gomimon is a Trashbin Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gossipmon", "image": "https://static.wikia.nocookie.net/digimon/images/9/91/Gossipmon_b.png/revision/latest?cb=20170609035915", "label": "Gossipmon", "shape": "circularImage", "title": "Gossipmon is a Gossip Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Gugumon", "label": "Gugumon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Hackmon", "image": "https://static.wikia.nocookie.net/digimon/images/d/dd/Hackmon_%28Appmon%29_b.png/revision/latest?cb=20161003044139", "label": "Hackmon", "shape": "circularImage", "title": "Hackmon is a Hacking Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Hadesmon", "image": "https://static.wikia.nocookie.net/digimon/images/8/89/Hadesmon_b.png/revision/latest?cb=20170728035355", "label": "Hadesmon", "shape": "circularImage", "title": "Hadesmon is a Variation Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Jammingmon", "image": "https://static.wikia.nocookie.net/digimon/images/2/21/Jammingmon_b.png/revision/latest?cb=20170609035332", "label": "Jammingmon", "shape": "circularImage", "title": "Jammingmon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the sides of it head and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "Jetmon", "image": "https://static.wikia.nocookie.net/digimon/images/9/98/Jetmon_b.png/revision/latest?cb=20170609035755", "label": "Jetmon", "shape": "circularImage", "title": "Jetmon appears to be a cross between aPteranodonand anairplane. It has claws at the tips of its wings which hold missiles. Jetmon appears to be an Appmon version ofPteramon. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Jishomon", "image": "https://static.wikia.nocookie.net/digimon/images/9/94/Jishomon_b.png/revision/latest?cb=20170609034707", "label": "Jishomon", "shape": "circularImage", "title": "Jishomon\u0027s design is an open dictionary with eyes and a bookmark. It has a foil band across the cover resembling a pair of glasses. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the sides and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "JumpPlusmon", "label": "JumpPlusmon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Kabemon", "image": "https://static.wikia.nocookie.net/digimon/images/4/44/Kabemon_b.png/revision/latest?cb=20170217161936", "label": "Kabemon", "shape": "circularImage", "title": "Kabemon is a Wallpaper Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Kaimon", "image": "https://static.wikia.nocookie.net/digimon/images/a/ab/Kaimon_b.png/revision/latest?cb=20170217165340", "label": "Kaimon", "shape": "circularImage", "title": "Kaimon appears to be a white Appmon with a bluecoin pursefor a body, ayen signon its face, and wears a white apron just likeKakeimon. Its appearance like that of a housewife is possibly due to the stereotype that the housewife performs the shopping. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Kakeimon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e8/Kakeimon_b.png/revision/latest?cb=20170407041251", "label": "Kakeimon", "shape": "circularImage", "title": "Kakeimon appears to be a black Appmon with a pinkcoin pursefor a body, a pink heart on its face, and wears a white apron. Its appearance like that of a housewife is possibly due to the Japanese stereotype that the housewife controls the household finances. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Kosomon", "image": "https://static.wikia.nocookie.net/digimon/images/d/d3/Kosomon_b.png/revision/latest?cb=20161201005142", "label": "Kosomon", "shape": "circularImage", "title": "Kosomon is a Gossip Review Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Libramon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e8/Libramon_b.png/revision/latest?cb=20170609042926", "label": "Libramon", "shape": "circularImage", "title": "Libramon appears to be aprofessorwith a bookshelf filled with books for a head. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Lightmon", "image": "https://static.wikia.nocookie.net/digimon/images/e/ea/Lightmon_b.png/revision/latest?cb=20170407041557", "label": "Lightmon", "shape": "circularImage", "title": "Lightmon is a Light Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Logimon", "image": "https://static.wikia.nocookie.net/digimon/images/a/af/Logimon_b.png/revision/latest?cb=20170407034717", "label": "Logimon", "shape": "circularImage", "title": "Logimon is a Login Appmon. It is an Appmon that digivolved from Onmon."}, {"color": "white", "font": {"color": "white"}, "id": "Logomon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c8/Logomon_b.png/revision/latest?cb=20170407034631", "label": "Logomon", "shape": "circularImage", "title": "Logomon is a Logout Appmon. It is an Appmon that digivolved from Offmon."}, {"color": "white", "font": {"color": "white"}, "id": "Luckmon", "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Luckmon_b.png/revision/latest?cb=20170217165526", "label": "Luckmon", "shape": "circularImage", "title": "Luckmon appears to be aslot machinewith its eyes and nose on the slots. Instead of arms, it has two slot machine levers to act as such. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Mailmon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a8/Mailmon_b.png/revision/latest?cb=20161002030116", "label": "Mailmon", "shape": "circularImage", "title": "Mailmon is a Mail Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "MCmon", "image": "https://static.wikia.nocookie.net/digimon/images/6/67/MCmon_b.png/revision/latest?cb=20161201005427", "label": "MCmon", "shape": "circularImage", "title": "MCmon is a Live Commentary Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Mediamon", "image": "https://static.wikia.nocookie.net/digimon/images/7/70/Mediamon_b.png/revision/latest?cb=20161209160454", "label": "Mediamon", "shape": "circularImage", "title": "Mediamonis a Media Player Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Medicmon", "image": "https://static.wikia.nocookie.net/digimon/images/8/8a/Medicmon_b.png/revision/latest?cb=20170217165139", "label": "Medicmon", "shape": "circularImage", "title": "Medicmon is a Medical Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Messemon", "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Messemon_b.png/revision/latest?cb=20161002042234", "label": "Messemon", "shape": "circularImage", "title": "Messemon is a Message Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Mienumon", "image": "https://static.wikia.nocookie.net/digimon/images/7/7b/Mienumon_b.png/revision/latest?cb=20161209170943", "label": "Mienumon", "shape": "circularImage", "title": "Mienumon is a Stealth Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "MiniCometmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/34/Cometmon_b.png/revision/latest?cb=20170407032231", "label": "MiniCometmon", "shape": "circularImage", "title": "MiniCometmon appears as a silver comet-shaped spaceship with two silver eyes. It also has two spikes on its bottom front."}, {"color": "white", "font": {"color": "white"}, "id": "Mirrormon", "image": "https://static.wikia.nocookie.net/digimon/images/2/23/Mirrormon_b.png/revision/latest?cb=20170217161443", "label": "Mirrormon", "shape": "circularImage", "title": "Mirrormon is a Mirror Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Moneymon", "image": "https://static.wikia.nocookie.net/digimon/images/0/05/Moneymon_b.png/revision/latest?cb=20170407041038", "label": "Moneymon", "shape": "circularImage", "title": "Moneymon appears to be a cross between aslot machineand anautomated teller machinewith itsdollar sign-shaped eyes and nose on the slots. Instead of arms, it has two slot machine levers to act as such. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Musclemon", "image": "https://static.wikia.nocookie.net/digimon/images/2/26/Musclemon_b.png/revision/latest?cb=20170609035026", "label": "Musclemon", "shape": "circularImage", "title": "Musclemon is a Muscle Training Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Musimon", "image": "https://static.wikia.nocookie.net/digimon/images/5/53/Musimon_b.png/revision/latest?cb=20161003044906", "label": "Musimon", "shape": "circularImage", "title": "Musimon is a Music Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Navimon", "image": "https://static.wikia.nocookie.net/digimon/images/0/08/Navimon_%28Appmon%29_b.png/revision/latest?cb=20161002191731", "label": "Navimon", "shape": "circularImage", "title": "Navimon is a Navi Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Newsmon", "image": "https://static.wikia.nocookie.net/digimon/images/0/09/Newsmon_b.png/revision/latest?cb=20161209161829", "label": "Newsmon", "shape": "circularImage", "title": "Newsmon is a News Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Offmon", "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Offmon_b.png/revision/latest?cb=20161201003621", "label": "Offmon", "shape": "circularImage", "title": "Offmon is an Off Line Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Onmon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e9/Onmon_b.png/revision/latest?cb=20161006034316", "label": "Onmon", "shape": "circularImage", "title": "Onmon is an Online Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Onpamon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Onpamon_b.png/revision/latest?cb=20170609043214", "label": "Onpamon", "shape": "circularImage", "title": "Onpamon is a small Appmon with a loudspeaker on top of its head. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the sides of it head and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "Oujamon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a1/Oujamon_b.png/revision/latest?cb=20170217163830", "label": "Oujamon", "shape": "circularImage", "title": "Attcks"}, {"color": "white", "font": {"color": "white"}, "id": "Ouranosmon", "image": "https://static.wikia.nocookie.net/digimon/images/1/15/Ouranosmon_b.png/revision/latest?cb=20170728040250", "label": "Ouranosmon", "shape": "circularImage", "title": "Ouranosmon is an Arousal Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Pekomon", "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Pekomon_b.png/revision/latest?cb=20161209165331", "label": "Pekomon", "shape": "circularImage", "title": "Pekomon is a Compression Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Perorimon", "image": "https://static.wikia.nocookie.net/digimon/images/8/86/Perorimon_b.png/revision/latest?cb=20161003045405", "label": "Perorimon", "shape": "circularImage", "title": "Perorimon is a Gourmet Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Pipomon", "image": "https://static.wikia.nocookie.net/digimon/images/f/fb/Pipomon_b.png/revision/latest?cb=20170609035535", "label": "Pipomon", "shape": "circularImage", "title": "Pipomon is a Warning Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Pokomon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a4/Pokomon_%28Appmon%29_b.png/revision/latest?cb=20161209165209", "label": "Pokomon", "shape": "circularImage", "title": "Pokomon is a Decompression Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Poseidomon", "image": "https://static.wikia.nocookie.net/digimon/images/5/5c/Poseidomon_b.png/revision/latest?cb=20170728035741", "label": "Poseidomon", "shape": "circularImage", "title": "Poseidomon is an Invincible Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Protecmon", "image": "https://static.wikia.nocookie.net/digimon/images/b/b2/Protecmon_b.png/revision/latest?cb=20161003043553", "label": "Protecmon", "shape": "circularImage", "title": "Protecmon is a Security Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Puzzlemon", "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Puzzlemon_b.png/revision/latest?cb=20170407041943", "label": "Puzzlemon", "shape": "circularImage", "title": "Puzzlemon is a Puzzle Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Racemon", "image": "https://static.wikia.nocookie.net/digimon/images/1/16/Racemon_b.png/revision/latest?cb=20170407042209", "label": "Racemon", "shape": "circularImage", "title": "Racemon is a racing Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Raidramon", "image": "https://static.wikia.nocookie.net/digimon/images/1/16/Raidramon_%28Appmon%29_b.png/revision/latest?cb=20161209155805", "label": "Raidramon", "shape": "circularImage", "title": "Raidramon is a Super Hacking Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Rebootmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/30/Rebootmon_b.png/revision/latest?cb=20170728040013", "label": "Rebootmon", "shape": "circularImage", "title": "Rebootmon is a Reboot Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Recomon", "image": "https://static.wikia.nocookie.net/digimon/images/5/53/Recomon_b.png/revision/latest?cb=20161004040923", "label": "Recomon", "shape": "circularImage", "title": "Recomon is a Recording Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Resshamon", "image": "https://static.wikia.nocookie.net/digimon/images/3/31/Resshamon_b.png/revision/latest?cb=20170107053323", "label": "Resshamon", "shape": "circularImage", "title": "Resshamon is a Transfer Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Reviewmon", "image": "https://static.wikia.nocookie.net/digimon/images/a/a0/Reviewmon_b.png/revision/latest?cb=20161002031445", "label": "Reviewmon", "shape": "circularImage", "title": "Reviewmon is a Review Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Revivemon", "image": "https://static.wikia.nocookie.net/digimon/images/7/7f/Revivemon_b.png/revision/latest?cb=20170217163629", "label": "Revivemon", "shape": "circularImage", "title": "Revivemon is a Restoration Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Roamon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c3/Roamon_b.png/revision/latest?cb=20170407034244", "label": "Roamon", "shape": "circularImage", "title": "Roamon is a Voice Change Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Rocketmon", "image": "https://static.wikia.nocookie.net/digimon/images/6/6c/Rocketmon_b.png/revision/latest?cb=20161002043319", "label": "Rocketmon", "shape": "circularImage", "title": "Rocketmon is a Rocket Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Ropuremon", "image": "https://static.wikia.nocookie.net/digimon/images/d/d6/Ropuremon_b.png/revision/latest?cb=20161005025633", "label": "Ropuremon", "shape": "circularImage", "title": "Ropuremon is a Ropure Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Sakusimon", "image": "https://static.wikia.nocookie.net/digimon/images/6/61/Sakusimon_b.png/revision/latest?cb=20161209171148", "label": "Sakusimon", "shape": "circularImage", "title": "Sakusimon is a Simulation Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Santamon", "label": "Santamon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Sateramon", "image": "https://static.wikia.nocookie.net/digimon/images/3/31/Sateramon_b.png/revision/latest?cb=20170407033213", "label": "Sateramon", "shape": "circularImage", "title": "Sateramonis a GPS Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Savemon", "image": "https://static.wikia.nocookie.net/digimon/images/3/38/Savemon_b.png/revision/latest?cb=20170407035736", "label": "Savemon", "shape": "circularImage", "title": "Savemon is a Backup Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Scorpmon", "image": "https://static.wikia.nocookie.net/digimon/images/c/ca/Scorpmon_b.png/revision/latest?cb=20161005032137", "label": "Scorpmon", "shape": "circularImage", "title": "Scorpmon is a Surveillance Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Setmon", "image": "https://static.wikia.nocookie.net/digimon/images/9/92/Setmon_b.png/revision/latest?cb=20170217164419", "label": "Setmon", "shape": "circularImage", "title": "Setmon appears as a small figure with a mask with three eyes and a shawl. Like most Appmon, it has two cables to allowApplinkthough they\u0027re on the ends of its braids and are used like arms."}, {"color": "white", "font": {"color": "white"}, "id": "Shotmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/3d/Shotmon_b.png/revision/latest?cb=20161004050557", "label": "Shotmon", "shape": "circularImage", "title": "Shotmon is a Shooting Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Shutmon", "image": "https://static.wikia.nocookie.net/digimon/images/2/24/Shutmon_b.png/revision/latest?cb=20170407032654", "label": "Shutmon", "shape": "circularImage", "title": "Shutmon is a Forced Termination Appmon. It is an Appmon that digivolved from Logomon."}, {"color": "white", "font": {"color": "white"}, "id": "Sleepmon", "image": "https://static.wikia.nocookie.net/digimon/images/5/59/Sleepmon_b.png/revision/latest?cb=20161209171101", "label": "Sleepmon", "shape": "circularImage", "title": "Sleepmon is a Sleep Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Sociamon", "image": "https://static.wikia.nocookie.net/digimon/images/5/5e/Sociamon_b.png/revision/latest?cb=20170217162843", "label": "Sociamon", "shape": "circularImage", "title": "Sociamon is an SNS Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Spamon", "image": "https://static.wikia.nocookie.net/digimon/images/e/ec/Spamon_b.png/revision/latest?cb=20170609043433", "label": "Spamon", "shape": "circularImage", "title": "Spamon appears as a hermit crab with anonsenas its shell. Like most Appmon, it has two cables to allowApplink, though they\u0027re on the back of its shell."}, {"color": "white", "font": {"color": "white"}, "id": "Speciamon", "label": "Speciamon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Sukasimon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f0/Sukasimon_b.png/revision/latest?cb=20161005031706", "label": "Sukasimon", "shape": "circularImage", "title": "Sukasimon is a Failed Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Supermon", "label": "Supermon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Supplemon", "image": "https://static.wikia.nocookie.net/digimon/images/7/78/Supplemon_b.png/revision/latest?cb=20161209171036", "label": "Supplemon", "shape": "circularImage", "title": "Supplemon is a Supplement Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Swipemon", "image": "https://static.wikia.nocookie.net/digimon/images/2/24/Swipemon_%28Game%29_duam3ds.png/revision/latest?cb=20211023073559", "label": "Swipemon", "shape": "circularImage", "title": "Swipemon appears to have a round body with a face on it. It has four pointed legs with no feet. It has a white design above its forehead. Swipemon has two large spikes on both sides of its head. Its color depends on its type."}, {"color": "white", "font": {"color": "white"}, "id": "Tapmon", "image": "https://static.wikia.nocookie.net/digimon/images/b/bc/Tapmon_%28Game%29_duam3ds.png/revision/latest?cb=20211023072245", "label": "Tapmon", "shape": "circularImage", "title": "Tapmon appear to have small round bodies with four legs with points instead of feat. They have a white design on their foreheads, and a spike on the top of their heads. Tapmon vary in color depending on their type."}, {"color": "white", "font": {"color": "white"}, "id": "Tarotmon", "image": "https://static.wikia.nocookie.net/digimon/images/5/55/Tarotmon_b.png/revision/latest?cb=20161201004149", "label": "Tarotmon", "shape": "circularImage", "title": "Tarotmon is a Super Fortunetelling Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Tellermon", "image": "https://static.wikia.nocookie.net/digimon/images/0/0a/Tellermon_b.png/revision/latest?cb=20161209162026", "label": "Tellermon", "shape": "circularImage", "title": "Tellermon is a Fortune Telling Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Timemon", "image": "https://static.wikia.nocookie.net/digimon/images/6/6f/Timemon_b.png/revision/latest?cb=20161209170417", "label": "Timemon", "shape": "circularImage", "title": "Timemon is a Timeslip Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Trickmon", "image": "https://static.wikia.nocookie.net/digimon/images/4/40/Trickmon_b.png/revision/latest?cb=20170407040539", "label": "Trickmon", "shape": "circularImage", "title": "Trickmon appears to be a top hat with arms wearing a mask and bow tie, elements tied to thestage magician. Like most Appmon, it has two cables to allowApplink, though they\u0027re stored in the hole on top of its head."}, {"color": "white", "font": {"color": "white"}, "id": "Tripmon", "image": "https://static.wikia.nocookie.net/digimon/images/0/02/Tripmon_b.png/revision/latest?cb=20161201005615", "label": "Tripmon", "shape": "circularImage", "title": "Tripmon is a Trip Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Tubumon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c5/Tubumon_b.png/revision/latest?cb=20161209162220", "label": "Tubumon", "shape": "circularImage", "title": "Tubumon is a Tweet Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Tutomon", "image": "https://static.wikia.nocookie.net/digimon/images/d/d9/Tutomon_b.png/revision/latest?cb=20161201003912", "label": "Tutomon", "shape": "circularImage", "title": "Tutomon is a Commentary Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Uratekumon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e3/Uratekumon_b.png/revision/latest?cb=20170217161844", "label": "Uratekumon", "shape": "circularImage", "title": "Uratekumon is a Hints and Tips Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Vegasmon", "image": "https://static.wikia.nocookie.net/digimon/images/c/cc/Vegasmon_b.png/revision/latest?cb=20170407033712", "label": "Vegasmon", "shape": "circularImage", "title": "Vegasmon is a Roulette Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Virusmon", "image": "https://static.wikia.nocookie.net/digimon/images/2/20/Virusmon_b.png/revision/latest?cb=20161004035835", "label": "Virusmon", "shape": "circularImage", "title": "Virusmon is a Virus Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "V-Jumpmon", "label": "V-Jumpmon", "shape": "dot", "title": "No design available."}, {"color": "white", "font": {"color": "white"}, "id": "Warpmon", "image": "https://static.wikia.nocookie.net/digimon/images/c/c7/Warpmon_b.png/revision/latest?cb=20170609044314", "label": "Warpmon", "shape": "circularImage", "title": "Warpmon appears to be a mad scientist with two different colored eyes. It carries a largeteleporteron its back. Like most Appmon, it has two cables on its back to allowApplink."}, {"color": "white", "font": {"color": "white"}, "id": "Warudamon", "image": "https://static.wikia.nocookie.net/digimon/images/1/11/Warudamon_b.png/revision/latest?cb=20170407033033", "label": "Warudamon", "shape": "circularImage", "title": "Warudamon is a Strategy Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Watchmon", "image": "https://static.wikia.nocookie.net/digimon/images/3/3f/Watchmon_b.png/revision/latest?cb=20161004045304", "label": "Watchmon", "shape": "circularImage", "title": "Watchmon is a Watch Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Weatherdoramon", "image": "https://static.wikia.nocookie.net/digimon/images/f/f3/Weatherdoramon_b.png/revision/latest?cb=20170217161359", "label": "Weatherdoramon", "shape": "circularImage", "title": "Weatherdoramon is a Weather Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Weathermon", "image": "https://static.wikia.nocookie.net/digimon/images/d/df/Weathermon_b.png/revision/latest?cb=20161002193549", "label": "Weathermon", "shape": "circularImage", "title": "Weathermon is a Weather Appmon."}, {"color": "white", "font": {"color": "white"}, "id": "Yadomon", "image": "https://static.wikia.nocookie.net/digimon/images/e/e6/Yadomon_b.png/revision/latest?cb=20170407040002", "label": "Yadomon", "shape": "circularImage", "title": "Yadomon appears as a hermit crab wearing abellhop\u0027s uniform with a hotel as its shell. Like most Appmon, it has two cables to allowApplink, though they\u0027re on the back of its shell."}, {"color": "white", "font": {"color": "white"}, "id": "Unspecified Appmon", "label": "Unspecified Appmon", "shape": "dot", "title": ""}, {"color": "white", "font": {"color": "white"}, "id": "Failed App Fusion", "label": "Failed App Fusion", "shape": "dot", "title": ""}, {"color": "blue", "font": {"color": "white"}, "id": -3326193768132661851, "label": -3326193768132661851, "shape": "dot", "title": "Applink Node\nDocmon + Medicmon\n= Biomon"}, {"color": "blue", "font": {"color": "white"}, "id": 4607476492681438218, "label": 4607476492681438218, "shape": "dot", "title": "Applink Node\nGossipmon + Sociamon\n= Charismon"}, {"color": "blue", "font": {"color": "white"}, "id": 6195892402365812167, "label": 6195892402365812167, "shape": "dot", "title": "Applink Node\nWarudamon + Cometmon\n= Deusmon"}, {"color": "blue", "font": {"color": "white"}, "id": 308736348592136491, "label": 308736348592136491, "shape": "dot", "title": "Applink Node\nDopemon + Virusmon\n= Docmon"}, {"color": "blue", "font": {"color": "white"}, "id": 6888251963645190215, "label": 6888251963645190215, "shape": "dot", "title": "Applink Node\nGatchmon + Navimon\n= DoGatchmon"}, {"color": "blue", "font": {"color": "white"}, "id": -3547186394563594741, "label": -3547186394563594741, "shape": "dot", "title": "Applink Node\nDokamon + Perorimon\n= Dosukomon"}, {"color": "blue", "font": {"color": "white"}, "id": 2911210243914130887, "label": 2911210243914130887, "shape": "dot", "title": "Applink Node\nMediamon + Dreammon\n= Entermon"}, {"color": "blue", "font": {"color": "white"}, "id": -7835069300824202118, "label": -7835069300824202118, "shape": "dot", "title": "Applink Node\nGlobemon + Charismon\n= Gaiamon"}, {"color": "blue", "font": {"color": "white"}, "id": -668853428974859363, "label": -668853428974859363, "shape": "dot", "title": "Applink Node\nDoGatchmon + Timemon\n= Globemon"}, {"color": "blue", "font": {"color": "white"}, "id": -4011364430545700108, "label": -4011364430545700108, "shape": "dot", "title": "Applink Node\nKosomon + Newsmon\n= Gossipmon"}, {"color": "blue", "font": {"color": "white"}, "id": -1880099197975536581, "label": -1880099197975536581, "shape": "dot", "title": "Applink Node\nRevivemon + Biomon\n= Hadesmon"}, {"color": "blue", "font": {"color": "white"}, "id": -3182926710598897094, "label": -3182926710598897094, "shape": "dot", "title": "Applink Node\nGatchmon + Onmon\n= Logimon"}, {"color": "blue", "font": {"color": "white"}, "id": 1242782972591509880, "label": 1242782972591509880, "shape": "dot", "title": "Applink Node\nUnspecified Appmon + Offmon\n= Logomon"}, {"color": "blue", "font": {"color": "white"}, "id": 8347312955751689394, "label": 8347312955751689394, "shape": "dot", "title": "Applink Node\nMusimon + Recomon\n= Mediamon"}, {"color": "blue", "font": {"color": "white"}, "id": 1838745578856243708, "label": 1838745578856243708, "shape": "dot", "title": "Applink Node\nCopipemon + Kabemon\n= Mienumon"}, {"color": "blue", "font": {"color": "white"}, "id": -1887546441602034489, "label": -1887546441602034489, "shape": "dot", "title": "Applink Node\nDosukomon + Coachmon\n= Oujamon"}, {"color": "blue", "font": {"color": "white"}, "id": -315016606297618786, "label": -315016606297618786, "shape": "dot", "title": "Applink Node\nEntermon + Fakemon\n= Ouranosmon"}, {"color": "blue", "font": {"color": "white"}, "id": 1673749820617357273, "label": 1673749820617357273, "shape": "dot", "title": "Applink Node\nOujamon + Beautymon\n= Poseidomon"}, {"color": "blue", "font": {"color": "white"}, "id": 6635904845818485717, "label": 6635904845818485717, "shape": "dot", "title": "Applink Node\nHackmon + Protecmon\n= Raidramon"}, {"color": "blue", "font": {"color": "white"}, "id": 9114386158502712812, "label": 9114386158502712812, "shape": "dot", "title": "Applink Node\nBootmon + Shutmon\n= Rebootmon"}, {"color": "blue", "font": {"color": "white"}, "id": 2047009687091997092, "label": 2047009687091997092, "shape": "dot", "title": "Applink Node\nRaidramon + Dezipmon\n= Revivemon"}, {"color": "blue", "font": {"color": "white"}, "id": 1505342801580746754, "label": 1505342801580746754, "shape": "dot", "title": "Applink Node\nJammingmon + Gengomon\n= Roamon"}, {"color": "blue", "font": {"color": "white"}, "id": 5054188493723501372, "label": 5054188493723501372, "shape": "dot", "title": "Applink Node\nCameramon + Shotmon\n= Scorpmon"}, {"color": "blue", "font": {"color": "white"}, "id": -6223303202086231795, "label": -6223303202086231795, "shape": "dot", "title": "Applink Node\nUnspecified Appmon + Logomon\n= Shutmon"}, {"color": "blue", "font": {"color": "white"}, "id": -1020364402142407970, "label": -1020364402142407970, "shape": "dot", "title": "Applink Node\nGashamon + Tellermon\n= Tarotmon"}, {"color": "blue", "font": {"color": "white"}, "id": 320873370610651576, "label": 320873370610651576, "shape": "dot", "title": "Applink Node\nYadomon + Jetmon\n= Tripmon"}, {"color": "blue", "font": {"color": "white"}, "id": 1687135126057163775, "label": 1687135126057163775, "shape": "dot", "title": "Applink Node\nMienumon + Sakusimon\n= Warudamon"}, {"color": "blue", "font": {"color": "white"}, "id": 2795553848919718054, "label": 2795553848919718054, "shape": "dot", "title": "Applink Node\nLogimon + Craftmon\n= Bootmon"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Docmon", "to": -3326193768132661851}, {"arrows": "to", "from": "Medicmon", "to": -3326193768132661851}, {"arrows": "to", "from": -3326193768132661851, "to": "Biomon"}, {"arrows": "to", "from": "Logimon", "to": "Bootmon"}, {"arrows": "to", "from": "Gossipmon", "to": 4607476492681438218}, {"arrows": "to", "from": "Sociamon", "to": 4607476492681438218}, {"arrows": "to", "from": 4607476492681438218, "to": "Charismon"}, {"arrows": "to", "from": "Warudamon", "to": 6195892402365812167}, {"arrows": "to", "from": "Cometmon", "to": 6195892402365812167}, {"arrows": "to", "from": 6195892402365812167, "to": "Deusmon"}, {"arrows": "to", "from": "Dopemon", "to": 308736348592136491}, {"arrows": "to", "from": "Virusmon", "to": 308736348592136491}, {"arrows": "to", "from": 308736348592136491, "to": "Docmon"}, {"arrows": "to", "from": "Gatchmon", "to": 6888251963645190215}, {"arrows": "to", "from": "Navimon", "to": 6888251963645190215}, {"arrows": "to", "from": 6888251963645190215, "to": "DoGatchmon"}, {"arrows": "to", "from": "Dokamon", "to": -3547186394563594741}, {"arrows": "to", "from": "Perorimon", "to": -3547186394563594741}, {"arrows": "to", "from": -3547186394563594741, "to": "Dosukomon"}, {"arrows": "to", "from": "Mediamon", "to": 2911210243914130887}, {"arrows": "to", "from": "Dreammon", "to": 2911210243914130887}, {"arrows": "to", "from": 2911210243914130887, "to": "Entermon"}, {"arrows": "to", "from": "Globemon", "to": -7835069300824202118}, {"arrows": "to", "from": "Charismon", "to": -7835069300824202118}, {"arrows": "to", "from": -7835069300824202118, "to": "Gaiamon"}, {"arrows": "to", "from": "DoGatchmon", "to": -668853428974859363}, {"arrows": "to", "from": "Timemon", "to": -668853428974859363}, {"arrows": "to", "from": -668853428974859363, "to": "Globemon"}, {"arrows": "to", "from": "Kosomon", "to": -4011364430545700108}, {"arrows": "to", "from": "Newsmon", "to": -4011364430545700108}, {"arrows": "to", "from": -4011364430545700108, "to": "Gossipmon"}, {"arrows": "to", "from": "Revivemon", "to": -1880099197975536581}, {"arrows": "to", "from": "Biomon", "to": -1880099197975536581}, {"arrows": "to", "from": -1880099197975536581, "to": "Hadesmon"}, {"arrows": "to", "from": "Gatchmon", "to": -3182926710598897094}, {"arrows": "to", "from": "Onmon", "to": -3182926710598897094}, {"arrows": "to", "from": -3182926710598897094, "to": "Logimon"}, {"arrows": "to", "from": "Unspecified Appmon", "to": 1242782972591509880}, {"arrows": "to", "from": "Offmon", "to": 1242782972591509880}, {"arrows": "to", "from": 1242782972591509880, "to": "Logomon"}, {"arrows": "to", "from": "Musimon", "to": 8347312955751689394}, {"arrows": "to", "from": "Recomon", "to": 8347312955751689394}, {"arrows": "to", "from": 8347312955751689394, "to": "Mediamon"}, {"arrows": "to", "from": "Copipemon", "to": 1838745578856243708}, {"arrows": "to", "from": "Kabemon", "to": 1838745578856243708}, {"arrows": "to", "from": 1838745578856243708, "to": "Mienumon"}, {"arrows": "to", "from": "Dosukomon", "to": -1887546441602034489}, {"arrows": "to", "from": "Coachmon", "to": -1887546441602034489}, {"arrows": "to", "from": -1887546441602034489, "to": "Oujamon"}, {"arrows": "to", "from": "Entermon", "to": -315016606297618786}, {"arrows": "to", "from": "Fakemon", "to": -315016606297618786}, {"arrows": "to", "from": -315016606297618786, "to": "Ouranosmon"}, {"arrows": "to", "from": "Oujamon", "to": 1673749820617357273}, {"arrows": "to", "from": "Beautymon", "to": 1673749820617357273}, {"arrows": "to", "from": 1673749820617357273, "to": "Poseidomon"}, {"arrows": "to", "from": "Hackmon", "to": 6635904845818485717}, {"arrows": "to", "from": "Protecmon", "to": 6635904845818485717}, {"arrows": "to", "from": 6635904845818485717, "to": "Raidramon"}, {"arrows": "to", "from": "Bootmon", "to": 9114386158502712812}, {"arrows": "to", "from": "Shutmon", "to": 9114386158502712812}, {"arrows": "to", "from": 9114386158502712812, "to": "Rebootmon"}, {"arrows": "to", "from": "Raidramon", "to": 2047009687091997092}, {"arrows": "to", "from": "Dezipmon", "to": 2047009687091997092}, {"arrows": "to", "from": 2047009687091997092, "to": "Revivemon"}, {"arrows": "to", "from": "Jammingmon", "to": 1505342801580746754}, {"arrows": "to", "from": "Gengomon", "to": 1505342801580746754}, {"arrows": "to", "from": 1505342801580746754, "to": "Roamon"}, {"arrows": "to", "from": "Cameramon", "to": 5054188493723501372}, {"arrows": "to", "from": "Shotmon", "to": 5054188493723501372}, {"arrows": "to", "from": 5054188493723501372, "to": "Scorpmon"}, {"arrows": "to", "from": "Unspecified Appmon", "to": -6223303202086231795}, {"arrows": "to", "from": "Logomon", "to": -6223303202086231795}, {"arrows": "to", "from": -6223303202086231795, "to": "Shutmon"}, {"arrows": "to", "from": "Failed App Fusion", "to": "Sukasimon"}, {"arrows": "to", "from": "Gashamon", "to": -1020364402142407970}, {"arrows": "to", "from": "Tellermon", "to": -1020364402142407970}, {"arrows": "to", "from": -1020364402142407970, "to": "Tarotmon"}, {"arrows": "to", "from": "Yadomon", "to": 320873370610651576}, {"arrows": "to", "from": "Jetmon", "to": 320873370610651576}, {"arrows": "to", "from": 320873370610651576, "to": "Tripmon"}, {"arrows": "to", "from": "Mienumon", "to": 1687135126057163775}, {"arrows": "to", "from": "Sakusimon", "to": 1687135126057163775}, {"arrows": "to", "from": 1687135126057163775, "to": "Warudamon"}, {"arrows": "to", "from": "Logimon", "to": 2795553848919718054}, {"arrows": "to", "from": "Craftmon", "to": 2795553848919718054}, {"arrows": "to", "from": 2795553848919718054, "to": "Bootmon"}, {"arrows": "to", "from": "Logomon", "to": "Shutmon"}, {"arrows": "to", "from": "Offmon", "to": "Logomon"}, {"arrows": "to", "from": "Sakusimon", "to": "Warudamon"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                
+                    network.on("selectNode", function (props) {
+                    let ids = props.nodes;
+                    showDigi(false,ids[0]);
+                    });
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                          addValues();
+                          network.setOptions( { physics: false } );
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
